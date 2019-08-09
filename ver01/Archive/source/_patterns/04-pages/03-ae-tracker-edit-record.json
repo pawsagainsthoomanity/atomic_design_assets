@@ -1,0 +1,41 @@
+{
+    "primaryNav": {
+        "navItems": [
+            {
+                "label": "Change Roles",
+                "url": "#",
+                "navChild": {
+                    "navChildList": [
+                        {
+                            "label": "Menu Item 1",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 2",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "navIcon": "gen-lifebelt",
+                "label": "Help",
+                "url": "#"
+            },
+            {
+                "label": "Log Out Oliver Queen",
+                "url": "#"
+            }
+        ]
+    },
+    "utilityNav": false,
+    "page": {
+        "kicker": "Instagram",
+        "title": "Glidim conference post - 19213",
+        "description": false
+    }
+}

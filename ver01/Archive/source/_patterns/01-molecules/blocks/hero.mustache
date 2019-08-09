@@ -1,0 +1,13 @@
+{{# hero }}
+<div class="ads-c-hero" {{# image }}style="background-image: url({{ image }});"{{/ image }}>
+	<div class="ads-c-hero__body">
+		<h1 class="ads-c-hero__title">{{ title }}</h1>
+		<div class="ads-c-hero__desc">
+			{{{ description }}}
+		</div>
+	</div>
+	<div class="ads-c-hero__footer">
+		{{> organisms-button-group }}
+	</div>
+</div>
+{{/ hero }}

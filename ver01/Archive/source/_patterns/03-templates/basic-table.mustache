@@ -1,0 +1,24 @@
+{{> organisms-navbar }}
+
+<main role="main">
+
+    <div class="ads-l-container">
+
+        {{> molecules-breadcrumbs }}
+        {{> molecules-page-header }}
+        {{> molecules-definition-list }}
+
+        {{# tableTabs }}
+        {{> organisms-tabs }}
+        {{/ tableTabs }}
+
+        {{# tableSection }}
+        {{> organisms-table-object }}
+        {{/ tableSection }}
+
+    </div>
+    <!--end l-container"-->
+
+</main>
+
+{{> organisms-footer }}

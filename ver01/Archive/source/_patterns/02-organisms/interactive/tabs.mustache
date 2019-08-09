@@ -1,0 +1,28 @@
+<div class="ads-c-tabs {{ styleModifier }} ads-js-tabs">
+
+	<ul class="ads-c-tabs__list">
+
+		{{# tabs }}
+		<li class="ads-c-tabs__item">
+			<a href="#{{ id }}" class="ads-c-tabs__link ads-js-tab">{{ label }}</a>
+		</li><!-- end ads-c-tabs__item -->
+		{{/ tabs }}
+
+	</ul><!-- end ads-c-tabs__list -->
+
+	<div class="ads-c-tabs__body {{ tabsModifier }}">
+
+		{{# tabs }}
+		<div class="ads-c-tabs__panel ads-js-tabs-panel" id="{{ id }}">
+            {{# tabsTextPassage }}
+            {{> organisms-text-passage }}
+            {{/ tabsTextPassage }}
+            {{# tabsTable }}
+            {{> organisms-table-object }}
+            {{/ tabsTable }}
+		</div>
+		{{/ tabs }}
+
+	</div><!-- end ads-c-tabs__body -->
+
+</div><!-- end ads-c-tabs -->

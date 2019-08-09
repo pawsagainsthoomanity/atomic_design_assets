@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #STATUS
+\*------------------------------------*/
+
+/**
+ * 1) An icon and a label paired together to message a status to the user
+ */
+.ads-c-status {
+	display: flex;
+}
+
+/**
+ * Status Icon
+ * 1) Color of icon changes based on status
+ */
+.ads-c-status__icon {
+	display: inline-block;
+	position: relative;
+	bottom: -4px;
+	width: 16px;
+	height: 16px;
+	margin-right: 0.25rem;
+
+    /**
+	 * Negative status icon
+	 */
+	.ads-c-status--negative & {
+		fill: $color-utility-negative;
+	}
+
+    /**
+	 * Warning status icon
+	 */
+	.ads-c-status--warning & {
+		fill: $color-utility-warning;
+	}
+
+    /**
+	 * Positive status icon
+	 */
+	.ads-c-status--positive & {
+		fill: $color-utility-positive;
+	}
+
+	.ads-c-table & {
+		bottom: -1px;
+	}
+}

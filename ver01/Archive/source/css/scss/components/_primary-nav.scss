@@ -1,0 +1,152 @@
+/*------------------------------------*\
+    #PRIMARY NAV
+\*------------------------------------*/
+
+/**
+ * 1) Contains the main site navigation and is usually
+ *    found inside the navbar
+ */
+.ads-c-primary-nav__list {
+    @media all and (min-width: $bp-large) {
+        display: flex;
+    }
+}
+
+/**
+ * Primary Nav List Item
+ */
+.ads-c-primary-nav__item {
+    position: relative;
+}
+
+.ads-c-primary-nav__sublist {
+    display: none;
+
+    @media all and (min-width: $bp-large) {
+        position: absolute;
+        top: 100%;
+        min-width: 12rem;
+        background-color: #3c1c65;
+    }
+
+    .ads-c-primary-nav__item.is-active > & {
+        display: block;
+        margin-left: 1rem;
+
+        @media all and (min-width: $bp-large) {
+            margin-left: 0;
+            margin-top: -1px;
+            background-color: $color-white;
+            box-shadow: $box-shadow;
+            border-radius: 0px 0px 4px 4px;
+            border: 1px solid $color-gray-05;
+        }
+    }
+
+    .ads-c-primary-nav__subitem.is-active > & {
+        display: block;
+        margin-left: 1rem;
+
+        @media all and (min-width: $bp-large) {
+            margin-left: 1rem;
+            position: static;
+            padding: 0;
+        }
+    }
+}
+
+/**
+ * Primary Nav Link
+ */
+.ads-c-primary-nav__link {
+    display: block;
+    padding: 1rem;
+
+    &:hover, &:focus {
+        background: rgba(255,255,255,0.25);
+    }
+
+    .ads-c-navbar & {
+        color: $color-white;
+    }
+
+    .ads-c-primary-nav__item.is-active > & {
+        @media all and (min-width: $bp-large) {
+            background: rgba(255,255,255,0.25);;
+        }
+    }
+}
+
+.ads-c-primary-nav__link--has-children {
+    display: flex;
+    align-items: center;
+}
+
+.ads-c-primary-nav__sublink {
+    display: block;
+    color: $color-white;
+    padding: 1rem;
+
+    &:hover, &:focus {
+        color: $color-brand-blue-dull;
+    }
+
+    .ads-c-primary-nav__item.is-active & {
+        @media all and (min-width: $bp-large) {
+            &:hover, &:focus {
+                background: $color-brand-blue-trans-08;
+            }
+        }
+     }
+
+    @media all and (min-width: $bp-large) {
+        color: $color-gray-73;
+    }
+}
+
+.ads-c-primary-nav__sublink--has-children {
+    display: flex;
+    align-items: center;
+}
+
+.ads-c-primary-nav__icon-before {
+    position: relative;
+    top: 3px;
+    margin-right: 0.25rem;
+}
+
+.ads-c-primary-nav__icon.ads-c-icon {
+    fill: $color-white;
+    height: 8px;
+    width: 8px;
+    margin-left: auto;
+    transform: rotate(0);
+    transition: transform $anim-fade-quick $anim-ease;
+
+    .ads-c-primary-nav__link:hover &, .ads-c-primary-nav__link:focus & {
+        fill: $color-white;
+    }
+
+    .ads-c-primary-nav__item.is-active & {
+        transform: rotate(180deg);
+    }
+
+    @media all and (min-width: $bp-large) {
+        margin-left: 0.5rem;
+    }
+}
+
+.ads-c-primary-nav__subicon.ads-c-icon {
+    height: 8px;
+    width: 8px;
+    fill: $color-white;
+    margin-left: auto;
+
+    .ads-c-primary-nav__sublink:hover &, .ads-c-primary-nav__sublink:focus & {
+        fill: $color-white;
+    }
+
+    .ads-c-primary-nav__subitem.is-active & {
+        transform: rotate(90deg);
+    }
+}

@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+
+/**
+ * Branding image or text of the site
+ * 1) Push navigation away from logo in navbar
+ */
+.ads-c-logo {
+    display: inline-block;
+
+    /**
+     * Logo within navbar
+     */
+    .ads-c-navbar & {
+        margin-right: 5.25rem; /* 1 */
+    }
+}
+
+/**
+ * Logo image
+ */
+.ads-c-logo__img {
+    display: block;
+    max-width: 5.8125rem;
+    width: 100%;
+
+    /**
+     * Logo image within vertical navbar
+     */
+    .ads-c-navbar--vertical & {
+        max-width: 7.5rem;
+    }
+}
+
+/**
+ * Apollo logo text
+ */
+.svg-apollo-logo-88{
+    fill: $color-white;
+
+    /**
+     * Apollo logo text within footer
+     */
+    .ads-c-footer & {
+        fill: $color-gray-50;
+    }
+}

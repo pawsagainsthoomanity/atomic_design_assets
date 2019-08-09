@@ -1,0 +1,25 @@
+<form class="ads-c-form" method="post" action="#">
+    <fieldset class="ads-c-fieldset">
+        <legend class="ads-c-fieldset__legend">AE Tracker data</legend>
+        {{> molecules-textarea-field(label: "UI Data", placeholder: "", fieldNote: "This is a note that succinctly explains what UI data is") }} 
+        {{> molecules-textarea-field }}
+    </fieldset>
+
+    <fieldset class="ads-c-fieldset">
+        <legend class="ads-c-fieldset__legend">Patient data</legend>
+        {{> molecules-text-field }} 
+        {{> molecules-text-field }} 
+        {{> molecules-text-field }} 
+        {{> molecules-select-field }}
+    </fieldset>
+
+
+    <fieldset class="ads-c-fieldset">
+        <legend class="ads-c-fieldset__legend">AE iterations executed date</legend>
+        {{> molecules-datepicker-field }}
+        {{> molecules-time-field }}
+    </fieldset>
+
+    {{> organisms-button-group }}
+
+</form>

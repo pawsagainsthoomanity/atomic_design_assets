@@ -1,0 +1,17 @@
+{
+    "badge": "Badge",
+    "max": 100,
+    "progressValue": 100,
+    "status": {
+        "statusIcon": "chevron-right",
+        "label": "Status"
+    },
+    "alert": {
+        "alertIcon": "clock",
+    	"alertButton": {
+    		"styleModifier": "ads-c-btn--text ads-js-alert-close-trigger",
+    		"buttonText": false,
+            "buttonIcon": "cross"
+    	}
+    }
+}

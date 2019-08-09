@@ -1,0 +1,394 @@
+{
+    "verticalNavbar": {
+        "navBarStyleModifier": "ads-c-navbar--vertical",
+        "solidNav": {
+            "solidNavItems": [
+                {
+                    "solidNavIcon": "resources-three",
+                    "label": "Resources"
+                },
+                {
+                    "solidNavIcon": "contact-three",
+                    "label": "Contact"
+                }
+            ]
+        },
+        "primaryNav": false,
+        "treeNav": {
+            "navItems": [
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Getting Started",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Guidelines",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Code conventions"
+    						},
+    						{
+    							"label": "Writing Guidelines"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Styles",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Color Palette"
+    						},
+    						{
+    							"label": "Typography"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Components",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Blocks and cards",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Buttons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Charts and graphs",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Form controls",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Headers and footers",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Imagery",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Icons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Interactive panels",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Lists and collections",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Media",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Messaging",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Navigation",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Tables",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Text",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Utilities",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Patterns & Flows",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Contribute",
+    				"url": "#"
+    			}
+    		]
+        },
+        "utilityNav": false
+    },
+    "page": {
+        "kicker": "Suit up for your apollo mission",
+        "title": "Resources",
+        "description": "Tools and assets for designers and developers"
+    },
+    "cardList": {
+        "styleModifier": "ads-l-grid--3up",
+        "cardItems": [
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-gitlab.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "Dev Library",
+                    "description": "Apollo's React-based developer library provides a complete web framework with ready-to-use components."
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "Get It from Gitlab"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-colors.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "Color Palette",
+                    "description": "Apollo uses a few theme colors and a range of neutral tones. Explore the colors and their contexts of use."
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "View Color Style Guide"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-tk.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "Fonts",
+                    "description": "Apollo's signature fonts are available in web-friendly and desktop flavors via Adobe’s Typekit."
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "Go to Adobe"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-icons.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "Icons",
+                    "description": "Apollo provides a comprehensive and cohesive set of SVG icons to let your UI say a lot with a little."
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "Download"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-sketch.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "UI Kit",
+                    "description": "Apollo’s Sketch library includes visuals for every Apollo component, enabling quick and accurate comps."
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "Download"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "ads-c-card--icon",
+                "cardHeader": {
+                    "cardImage": {
+                        "image": "../../images/icon-templates.svg"
+                    }
+                },
+                "cardBody": {
+                    "title": "Templates",
+                    "description": "Sketch file containing common page templates (like a dashboard or index page)"
+                },
+                "cardFooter": {
+                    "styleModifier": "ads-c-btn-group--center",
+                    "buttonGroup": [
+                        {
+                            "styleModifier": "ads-c-btn--text",
+                            "buttonText": "Download"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "footerStyleModifier": "ads-c-footer--center",
+    "footerNav": [
+        {
+            "label": "Release History",
+            "url": "#"
+        },
+        {
+            "label": "Contribute",
+            "url": "#"
+        }
+    ],
+    "footerMeta": "Apollo Design System v0.6 | Made with Moon Dust by the Apollo Team. © 2018 IQVIA."
+}

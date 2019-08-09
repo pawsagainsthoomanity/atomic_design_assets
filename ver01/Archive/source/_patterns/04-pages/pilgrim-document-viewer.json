@@ -1,0 +1,39 @@
+{
+    "selectField": {
+        "styleModifier": "ads-u-margin-bottom",
+        "selectOptions" : [
+            {
+                "value" : "option-1",
+                "option" : "Current (v4.5)"
+            },
+            {
+                "value" : "option-2",
+                "option" : "Beta (v4.6)"
+            },
+            {
+                "value" : "option-3",
+                "option" : "Future (v5.0)"
+            }
+        ]
+    },
+    "definitionList": {
+        "styleModifier": "ads-c-definition-list--lined",
+        "items": [
+            {
+                "itemModifier": "ads-c-definition-list__item--negative",
+                "term": "Deleted",
+                "description": "4"
+            },
+            {
+                "itemModifier": "ads-c-definition-list__item--positive",
+                "term": "Added",
+                "description": "4"
+            },
+            {
+                "itemModifier": "ads-c-definition-list__item--warning",
+                "term": "Changed",
+                "description": "4"
+            }
+        ]
+    }
+}

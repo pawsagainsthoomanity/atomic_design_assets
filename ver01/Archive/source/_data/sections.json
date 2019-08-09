@@ -1,0 +1,26 @@
+{
+	"tableObject": true,
+	"cardListSection": true,
+	"sectionHeader": true,
+	"verticalNavbar": {
+		"navBarStyleModifier": "ads-c-navbar--vertical",
+		"solidNav": true,
+		"primaryNav": false,
+		"treeNav": true,
+		"utilityNav": false
+	},
+	"tableSection": true,
+	"toolbar": true,
+	"sectionList": [
+		{
+			"tagsSection": true
+		}
+	],
+	"callToAction": true,
+	"formSectionHeader": true,
+	"commentForm": true,
+	"commentSectionHeader": true,
+	"commentList": true,
+	"usageSection": true,
+	"contentBlockSection": true
+}

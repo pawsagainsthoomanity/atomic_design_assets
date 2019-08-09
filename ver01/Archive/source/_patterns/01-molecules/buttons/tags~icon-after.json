@@ -1,0 +1,20 @@
+{
+    "tags": [
+		{
+            "tagsIconAfter": "clock",
+			"label": "Tag 1"
+		},
+		{
+            "tagsIconAfter": "clock",
+			"label": "Tag 2"
+		},
+		{
+            "tagsIconAfter": "clock",
+			"label": "Tag 3"
+		},
+		{
+            "tagsIconAfter": "clock",
+			"label": "Tag 4"
+		}
+	]
+}

@@ -1,0 +1,548 @@
+{
+    "verticalNavbar": {
+        "navBarStyleModifier": "ads-c-navbar--vertical",
+        "solidNav": {
+            "solidNavItems": [
+                {
+                    "solidNavIcon": "resources-three",
+                    "label": "Resources"
+                },
+                {
+                    "solidNavIcon": "contact-three",
+                    "label": "Contact"
+                }
+            ]
+        },
+        "primaryNav": false,
+        "treeNav": {
+            "navItems": [
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Getting Started",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Guidelines",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Code conventions"
+    						},
+    						{
+    							"label": "Writing Guidelines"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Styles",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Color Palette"
+    						},
+    						{
+    							"label": "Typography"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Components",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Blocks and cards",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Buttons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Charts and graphs",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Form controls",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Headers and footers",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Imagery",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Icons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Interactive panels",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Lists and collections",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Media",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Messaging",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Navigation",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Tables",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Text",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Utilities",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Patterns & Flows",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Contribute",
+    				"url": "#"
+    			}
+    		]
+        },
+        "utilityNav": false
+    },
+    "page": {
+        "title": "Color Palette",
+        "description": false
+    },
+    "htmlText": "<p>Colors help to create a consistent brand identity. A site’s color palette plays an important role in the overall user experience.</p><p>The Apollo color palette focuses on simplicity, using a few theme colors and a range of neutral tones.</p><p>An expanded palette is available for specific purposes, such as data visualizations.</p>",
+    "colorBlockList": {
+        "styleModifier": "ads-l-grid--3up",
+        "colorItems": [
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            },
+            {
+                "backgroundColor": "#000000",
+                "title": false,
+                "variable": "$color-black",
+                "description": "#000000"
+            }
+        ]
+    },
+    "splitBlocks": {
+        "splitItems": [
+            {
+                "styleModifier": "",
+                "image": "../../images/background-color.svg",
+                "title": "Background Colors",
+                "description": "Use for overall background, cards, tables and data visualization containers.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "",
+                "image": "../../images/border-color.svg",
+                "title": "Border Colors",
+                "description": "Give life to borders on all things cards, text fields, line separators and tables.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "",
+                "image": "../../images/data-viz.svg",
+                "title": "Data Visualization Colors",
+                "description": "Use data visualizations colors in order of series to promote cras ac ligula a lorem blandit aliquam a eget leo.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "",
+                "image": "../../images/theme-color.png",
+                "title": "Theme Color",
+                "description": "Use to add color to the overall application e.g. main navigation, call to actions or imagery.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "",
+                "image": "../../images/text-color.svg",
+                "title": "Text Colors",
+                "description": "Below are the default color options for copy. Use default for Body Copy , dark for Headlines and light for captions.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            },
+            {
+                "styleModifier": "",
+                "image": "../../images/utility.svg",
+                "title": "Status Colors",
+                "description": "Primarily used to denote status. Use in conjuction with an icon or text that reinforces the status – never use color alone.",
+                "colorBlocks": {
+                    "colorItems": [
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        },
+                        {
+                            "backgroundColor": "#000000",
+                            "title": false,
+                            "variable": "$color-black",
+                            "description": "#000000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "footerStyleModifier": "ads-c-footer--center",
+    "footerNav": [
+        {
+            "label": "Release History",
+            "url": "#"
+        },
+        {
+            "label": "Contribute",
+            "url": "#"
+        }
+    ],
+    "footerMeta": "Apollo Design System v0.6 | Made with Moon Dust by the Apollo Team. © 2018 IQVIA."
+}

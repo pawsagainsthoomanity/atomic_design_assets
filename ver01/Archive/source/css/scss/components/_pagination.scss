@@ -1,0 +1,59 @@
+/*------------------------------------*\
+	#PAGINATION
+\*------------------------------------*/
+
+/**
+ * 1) An ordered list to navigate through the site
+ * 2) Display flex added to display pagination items in a row
+ */
+.ads-c-pagination {
+	display: flex;
+    align-items: center;
+}
+
+/**
+ * Pagination list item
+ */
+.ads-c-pagination__item {
+	margin: 0 2px;
+}
+
+/**
+ * Pagination link
+ */
+.ads-c-pagination__link {
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+	padding: 0.5rem;
+    font-size: $font-size-sm-2;
+    line-height: 1;
+	transition: border-color $anim-fade-quick $anim-ease;
+
+    &:hover, &:focus {
+        background: $color-brand-blue-trans-08;
+    }
+
+    &.ads-is-current {
+		font-weight: bold;
+    }
+
+	&.ads-is-disabled {
+        pointer-events: none;
+		color: $color-gray-15;
+	}
+}
+
+/**
+ * Pagination icon
+ * 1) For previous and next arrows
+ */
+.ads-c-pagination__icon.ads-c-icon {
+	width: 10px;
+    height: 10px;
+    fill: $color-gray-73;
+
+    .ads-c-pagination__link.ads-is-disabled & {
+		fill: $color-gray-15;
+	}
+}

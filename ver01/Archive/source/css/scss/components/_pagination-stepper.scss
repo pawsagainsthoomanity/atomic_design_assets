@@ -1,0 +1,34 @@
+/*------------------------------------*\
+	#PAGINATION STEPPER
+\*------------------------------------*/
+
+/**
+ * 1) Component consisting of a previous button, text div, and next button to
+ * step up or down through a list of items
+ */
+.ads-c-pagination-stepper {
+	display: flex;
+}
+
+.ads-c-pagination-stepper__prev-btn {
+	border-radius: $border-radius 0 0 $border-radius;
+	box-shadow: none;
+}
+
+.ads-c-pagination-stepper__text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1 0 auto;
+	padding: 0 2rem;
+	background: $color-gray-05;
+}
+
+.ads-c-pagination-stepper__current, .ads-c-pagination-stepper__divider {
+	margin-right: 0.25rem;
+}
+
+.ads-c-pagination-stepper__next-btn {
+	border-radius: 0 $border-radius $border-radius 0;
+	box-shadow: none;
+}

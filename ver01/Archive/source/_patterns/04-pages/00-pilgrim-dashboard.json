@@ -1,0 +1,235 @@
+{
+    "navBarStyleModifier": "ads-u-margin-bottom-none",
+    "primaryNav": {
+        "navItems": [
+            {
+                "label": "Change Roles",
+                "url": "#",
+                "navChild": {
+                    "navChildList": [
+                        {
+                            "label": "Menu Item 1",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 2",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "navIcon": "gen-lifebelt",
+                "label": "Help",
+                "url": "#"
+            },
+            {
+                "label": "Log Out Oliver Queen",
+                "url": "#"
+            }
+        ]
+    },
+    "utilityNav": false,
+    "boldHero": {
+        "title": "Training Overview",
+        "description": "Here's the latest..."
+    },
+    "cardListSection": false,
+    "overflowCarousel": [
+        {
+            "title": "Upcoming Courses",
+            "buttonGroup": [
+                {
+                    "styleModifier": "ads-c-btn--text",
+                    "buttonText": "See All"
+                }
+            ],
+            "paginationStepperText": false,
+            "cardItems": [
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Using Canalyn 101",
+                        "description": "Document"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "How to treat patients with Glidim",
+                        "description": "Document"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Treating with Actyloyn",
+                        "description": "Training"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Requirement A",
+                        "description": "Type"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Requirement B",
+                        "description": "Type"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Using Canalyn 101",
+                        "description": "Document"
+                    },
+                    "cardFooter": false
+                }
+            ]
+        },
+        {
+            "title": "Least Compliant Teams",
+            "buttonGroup": [
+                {
+                    "styleModifier": "ads-c-btn--text",
+                    "buttonText": "See All"
+                }
+            ],
+            "paginationStepperText": false,
+            "cardItems": [
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Queen, Oliver",
+                        "description": "Sr. Sales Representative"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Prince, Diana",
+                        "description": "Human Resources"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Wayne, Bruce",
+                        "description": "Meeting Executive"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Allen, Barry",
+                        "description": "Sr. Sales Representative"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Luthor, Lex",
+                        "description": "Sr. Sales Representative"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "John Smith",
+                        "description": "Cool Dude"
+                    },
+                    "cardFooter": false
+                }
+            ]
+        },
+        {
+            "title": "By Status",
+            "buttonGroup": [
+                {
+                    "styleModifier": "ads-c-btn--text",
+                    "buttonText": "See All"
+                }
+            ],
+            "paginationStepperText": false,
+            "cardItems": [
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "INWORKS",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Open & Sign Up",
+                        "description": "Lorem ipsum dolor"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Close & Sign Up",
+                        "description": "Lorem ipsum dolor"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Complete",
+                        "description": "Lorem ipsum dolor"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Requirement B",
+                        "description": "Type"
+                    },
+                    "cardFooter": false
+                },
+                {
+                    "styleModifier": "ads-c-card--dropshadow",
+                    "cardBody": {
+                        "title": "Assigned",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                    },
+                    "cardFooter": false
+                }
+            ]
+        }
+    ],
+    "tableSection": false,
+    "footerNav": [
+        {
+            "label": "Terms of Use",
+            "url": "#"
+        },
+        {
+            "label": "Privacy Policy",
+            "url": "#"
+        }
+    ]
+}

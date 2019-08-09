@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    #FIELDS
+\*------------------------------------*/
+
+/**
+ * 1) Consists of a label, form control, and an optional note about the field.
+ */
+ .ads-c-field {
+	margin-bottom: $spacing-large;
+}
+
+.ads-c-field--inline {
+    display: flex;
+    align-items: center;
+
+    .ads-c-toolbar & {
+        @media all and (min-width: $bp-large) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/**
+ * Field label
+ */
+.ads-c-field__label {
+	margin-bottom: 0.5rem;
+    font-size: $font-size-med;
+
+    .ads-c-field--inline & {
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Field body
+ */
+.ads-c-field__body {
+    position: relative;
+}
+
+/**
+ * Field note
+ */
+.ads-c-field__note {
+    display: inline-block;
+    font-size: $font-size-sm;
+    color: $color-gray-50;
+}

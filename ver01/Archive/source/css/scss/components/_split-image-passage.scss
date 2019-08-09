@@ -1,0 +1,90 @@
+/*------------------------------------*\
+    #SPLIT IMAGE PASSAGE
+\*------------------------------------*/
+
+/**
+ * 1) A media block features a block of media(i.e. image) and text
+ */
+.ads-c-split-image-passage__inner {
+    display: block;
+
+    @media all and (min-width: $bp-med) {
+    	display: flex;
+    	position: relative;
+        align-items: center;
+
+        .ads-c-split-image-passage--top-aligned & {
+            align-items: flex-start;
+        }
+    }
+}
+
+.ads-c-split-image-passage--white {
+    background: $color-white;
+}
+
+/**
+ * Media block body
+ */
+.ads-c-split-image-passage__body {
+    margin-bottom: 1rem;
+    @media all and (min-width: $bp-med) {
+        max-width: 50%;
+        margin-bottom: 0;
+    }
+
+    .ads-c-split-image-passage--reversed & {
+        @media all and (min-width: $bp-med) {
+            order: 2;
+        }
+    }
+}
+/**
+ * Media block title
+ */
+.ads-c-split-image-passage__title {
+    font-size: $font-size-large;
+	margin-bottom: 0.5rem;
+}
+
+/**
+ * Media block description
+ */
+.ads-c-split-image-passage__desc {
+}
+
+/**
+ * Media container
+ */
+.ads-c-split-image-passage__media {
+
+    @media all and (min-width: $bp-med) {
+        max-width: 50%;
+        margin-left: 2.5rem;
+    }
+
+    .ads-c-split-image-passage--reversed & {
+        @media all and (min-width: $bp-med) {
+            order: 1;
+            margin-left: 0;
+            margin-right: 2.5rem;
+        }
+    }
+}
+
+/**
+ * Media block image
+ * 1) Max height added to work in IE 10 and Edge
+ */
+.ads-c-split-image-passage__img {
+}
+
+
+
+.ads-c-split-image-passage-list {
+    margin-bottom: 2rem;
+}
+
+.ads-c-split-image-passage__footer {
+    margin-top: 1rem;
+}

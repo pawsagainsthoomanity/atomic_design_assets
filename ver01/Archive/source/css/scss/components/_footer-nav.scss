@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    #FOOTER NAV
+\*------------------------------------*/
+
+/**
+ * 1) Footer navigation
+ */
+.ads-c-footer-nav {
+    display: flex;
+}
+
+.ads-c-footer-nav__item {
+    margin-right: 2rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+.ads-c-footer-nav__link {
+    color: $color-gray-50;
+
+    &:hover, &:focus {
+        color: $color-brand-blue;
+        text-decoration: underline;
+    }
+}

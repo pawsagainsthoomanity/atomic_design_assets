@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    #COLOR BLOCK
+\*------------------------------------*/
+
+/**
+ * 1) A media block features a block of media(i.e. image) and text
+ */
+.ads-c-color-block {
+    display: block;
+    min-width: 15rem;
+    width: 100%;
+
+    @media all and (min-width: $bp-med) {
+    	display: flex;
+    	position: relative;
+    	align-items: center;
+    }
+}
+
+/**
+ * Media block body
+ */
+.ads-c-color-block__body {
+    margin-bottom: 1rem;
+    @media all and (min-width: $bp-med) {
+        max-width: 50%;
+        margin-bottom: 0;
+    }
+}
+/**
+ * Media block title
+ */
+.ads-c-color-block__title {
+    font-size: $font-size-med;
+    margin-bottom: 0;
+}
+
+/**
+ * Media block description
+ */
+.ads-c-color-block__variable {
+    color: $color-gray-50;
+}
+
+/**
+ * Media block description
+ */
+.ads-c-color-block__desc {
+    color: $color-gray-50;
+}
+
+/**
+ * Color container
+ */
+.ads-c-color-block__color {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid $color-gray-15;
+    margin-right: 1rem;
+
+    .ads-c-color-block--small & {
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+
+
+.ads-c-color-block-list {
+    margin-bottom: 2rem;
+}

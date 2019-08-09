@@ -1,0 +1,23 @@
+{{# alert }}
+<div class="ads-c-alert ads-js-alert {{ styleModifier }}">
+
+	<div class="ads-c-alert__inner ads-l-container">
+
+		{{# alertIcon }}
+		<svg class="ads-c-alert__icon">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ alertIcon }}"></use>
+        </svg>
+		{{/ alertIcon }}
+
+		<div class="ads-c-alert__text ads-c-text-passage">{{{ description }}}</div>
+
+		{{# alertButton }}
+		<div class="ads-c-alert__actions">
+			{{> molecules-button }}
+		</div>
+		{{/ alertButton }}
+
+	</div><!--end ads-c-alert__inner-->
+
+</div><!--end ads-c-alert-->
+{{/ alert }}

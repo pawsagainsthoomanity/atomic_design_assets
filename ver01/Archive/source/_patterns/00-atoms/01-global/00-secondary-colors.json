@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "name": "$color-secondary-purple",
+      "value": "#9E54B0",
+      "comment": ""
+    },
+    {
+      "name": "$color-secondary-orange",
+      "value": "#FF9300",
+      "comment": ""
+    },
+    {
+      "name": "$color-secondary-fuchsia",
+      "value": "#DF216D",
+      "comment": ""
+    },
+    {
+      "name": "$color-secondary-blue",
+      "value": "#297dfd",
+      "comment": ""
+    },
+    {
+      "name": "$color-secondary-dark-blue",
+      "value": "#10558A",
+      "comment": ""
+    },
+    {
+      "name": "$color-secondary-green",
+      "value": "#00C221",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-secondary-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

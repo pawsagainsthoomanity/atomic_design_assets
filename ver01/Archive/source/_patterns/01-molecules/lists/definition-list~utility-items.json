@@ -1,0 +1,21 @@
+{
+    "definitionList": {
+        "items": [
+            {
+                "itemModifier": "ads-c-definition-list__item--negative",
+                "term": "Deleted",
+                "description": "4"
+            },
+            {
+                "itemModifier": "ads-c-definition-list__item--positive",
+                "term": "Added",
+                "description": "4"
+            },
+            {
+                "itemModifier": "ads-c-definition-list__item--warning",
+                "term": "Changed",
+                "description": "4"
+            }
+        ]
+    }
+}

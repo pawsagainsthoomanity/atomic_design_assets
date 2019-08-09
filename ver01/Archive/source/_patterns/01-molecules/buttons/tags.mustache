@@ -1,0 +1,26 @@
+<ul class="ads-c-tags {{ styleModifier }}">
+
+	{{# tags }}
+	<li class="ads-c-tags__item ads-js-tags-item">
+
+		<a href="{{ url }}" class="ads-c-tags__link {{# closingTags }}ads-js-tags-trigger{{/ closingTags }}">
+			{{# tagsIcon }}
+			<svg class="ads-c-icon ads-c-tags__icon">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ tagsIcon }}"></use>
+			</svg>
+			{{/ tagsIcon }}
+			<span class="ads-c-tags__text">
+				{{ label }}
+			</span>
+			{{# tagsIconAfter }}
+			<svg class="ads-c-icon ads-c-tags__icon">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ tagsIconAfter }}"></use>
+			</svg>
+			{{/ tagsIconAfter }}
+
+		</a><!-- end ads-c-tags__link -->
+
+	</li><!-- end ads-c-tags__item -->
+	{{/ tags }}
+
+</ul><!-- end ads-c-tags -->

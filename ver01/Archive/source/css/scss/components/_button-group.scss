@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #BUTTON GROUP
+\*------------------------------------*/
+
+/**
+ * 1) A grouping of buttons, often displayed side-by-side
+ */
+.ads-c-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+
+    /**
+     * Button group within hero
+     */
+    .ads-c-hero & {
+        justify-content: center;
+    }
+}
+
+.ads-c-btn-group--center {
+    justify-content: center;
+}

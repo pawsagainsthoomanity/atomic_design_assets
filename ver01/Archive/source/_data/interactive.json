@@ -1,0 +1,76 @@
+{
+    "dropdownButton": {
+        "styleModifier": "ads-js-dropdown-trigger",
+        "buttonText": "Dropdown"
+    },
+    "dropdownList" : [
+        {
+            "label": "Item 1"
+        },
+        {
+            "label": "Item 2"
+        },
+        {
+            "label": "Item 3"
+        }
+    ],
+    "tabs": [
+		{
+			"label": "Tab 1",
+			"id": "tab-panel-1",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 1 content"
+            }
+		},
+		{
+			"label": "Tab 2",
+			"id": "tab-panel-2",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 2 content"
+            }
+		},
+		{
+			"label": "Tab 3",
+			"id": "tab-panel-3",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 3 content"
+            }
+		},
+		{
+			"label": "Tab 4",
+			"id": "tab-panel-4",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 4 content"
+            }
+		},
+		{
+			"label": "Tab 5",
+			"id": "tab-panel-5",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 5 content"
+            }
+		},
+		{
+			"label": "Tab 6",
+			"id": "tab-panel-6",
+            "tabsTextPassage" : {
+                "htmlText": "Tab 6 content"
+            }
+		}
+	],
+    "prevButton": {
+        "styleModifier": "ads-c-btn--small ads-c-btn--tertiary ads-c-pagination-stepper__prev-btn ads-is-disabled",
+        "buttonIcon": "chevron-left",
+        "buttonText": false
+    },
+    "paginationStepperText": {
+        "current": "1",
+        "divider": "of",
+        "total": "13"
+    },
+    "nextButton": {
+        "styleModifier": "ads-c-btn--small ads-c-btn--tertiary ads-c-pagination-stepper__next-btn",
+        "buttonIcon": "chevron-right",
+        "buttonText": false
+    }
+}

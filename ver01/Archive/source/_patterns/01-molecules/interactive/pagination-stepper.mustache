@@ -1,0 +1,19 @@
+<div class="ads-c-pagination-stepper">
+
+    {{# prevButton }}
+    {{> molecules-button }}
+    {{/ prevButton }}
+
+    {{# paginationStepperText }}
+    <div class="ads-c-pagination-stepper__text">
+        <span class="ads-c-pagination-stepper__current ads-js-pagination-stepper-current">{{ current }}</span>
+        <span class="ads-c-pagination-stepper__divider">{{ divider }}</span>
+        <span class="ads-c-pagination-stepper__total ads-js-pagination-stepper-total">{{ total }}</span>
+    </div>
+    {{/ paginationStepperText }}
+
+    {{# nextButton }}
+    {{> molecules-button }}
+    {{/ nextButton }}
+
+</div>

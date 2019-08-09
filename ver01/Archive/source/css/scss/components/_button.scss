@@ -1,0 +1,216 @@
+/*------------------------------------*\
+    #BUTTON
+\*------------------------------------*/
+
+/**
+ * 1) A button can be marked up as a <button> or an <a> tag.
+ * 2) Default button styles are "primary" button styles featuring
+ *    a prominent visual display
+ */
+.ads-c-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+    line-height: 1;
+    border: 0;
+    border-radius: $border-radius;
+    color: $color-white;
+    box-shadow: $box-shadow-blue-40;
+    background-color: $color-brand-blue-light;
+    cursor: pointer;
+    transition: all $anim-fade-quick $anim-ease;
+
+    &:hover, &:focus {
+        color: $color-white;
+        background-color: $color-brand-blue;
+    }
+
+    &.ads-is-disabled {
+        pointer-events: none;
+    }
+
+    /**
+     * Button that appears within a button group
+     */
+    .ads-c-btn-group & {
+        margin-right: $spacing;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    /**
+     * Button within the search field
+     */
+    .ads-c-search & {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+/**
+ * Secondary button styles
+ * 1) Less-prominent button styles used for more subtle interactions
+ *    (i.e. for a "Submit | Cancel" button group, the "Cancel" button
+ *    would be a secondary button.
+ */
+.ads-c-btn--secondary {
+    background-color: $color-white;
+    border: 1px solid $color-gray-15;
+    color: $color-brand-blue;
+    box-shadow: $box-shadow-black-20;
+
+    &:hover, &:focus {
+        color: $color-brand-blue;
+        background-color: $color-gray-05;
+        border: 1px solid $color-brand-blue;
+    }
+}
+
+/**
+ * Tertiary button styles
+ * 1) Third level button style that is less prominent than the default and secondary button
+ */
+.ads-c-btn--tertiary {
+    background-color: $color-white;
+    border: 1px solid $color-gray-15;
+    color: $color-gray-73;
+    box-shadow: $box-shadow-black-20;
+
+    &:hover, &:focus {
+        color: $color-gray-73;
+        background-color: $color-gray-05;
+        border: 1px solid $color-brand-blue;
+    }
+
+    &.ads-is-disabled {
+        background: $color-gray-05;
+        color: $color-gray-15;
+
+        &:hover, &:focus {
+            border-color: $color-gray-15;
+            color: $color-gray-15;
+        }
+    }
+}
+
+/**
+ * Text button modifier
+ * 1) a button that is styled the same as a text link
+ *    This is helpful for elements that should be <button>s
+ *    in markup but should be stylistically similar to
+ */
+.ads-c-btn--text {
+    color: $color-brand-blue;
+    text-decoration: none;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+
+    &:hover, &:focus {
+        color: #1f5fc0;
+        text-decoration: underline;
+        background: none;
+    }
+}
+
+/**
+ * Bare button modifier
+ */
+.ads-c-btn--bare {
+    background: none;
+    box-shadow: none;
+    color: $color-brand-blue;
+    border: 1px solid transparent;
+    transition: border $anim-fade-quick $anim-ease;
+
+    &:hover, &:focus {
+        border: 1px solid $color-gray-05;
+        background: none;
+    }
+}
+
+.ads-c-btn--small {
+    padding: 0.5rem;
+}
+
+.ads-c-btn--block {
+    width: 100%;
+}
+
+.ads-c-btn--long {
+    padding: 0.5rem 4rem;
+}
+
+.ads-c-btn__inner {
+    display: flex;
+    align-items: center;
+}
+
+/**
+ * Button label text
+ * 1) This is wrapped in a span for positioning purposes
+ */
+.ads-c-btn__text {
+    display: block;
+}
+
+/**
+ * The button icon is an optional icon that appears before a button
+ */
+.ads-c-btn__icon {
+    display: block;
+    fill: $color-white;
+    height: 16px;
+    width: 16px;
+
+    /**
+     * Button icon within a bare button
+     */
+    .ads-c-btn--bare & {
+        fill: $color-gray-73;
+    }
+
+    /**
+     * Button icon within a secondary button
+     */
+    .ads-c-btn--secondary & {
+        fill: $color-brand-blue;
+    }
+
+    /**
+     * Button icon within tertiary button
+     */
+    .ads-c-btn--tertiary & {
+        fill: $color-gray-73;
+    }
+
+    .ads-c-btn--tertiary.ads-is-disabled & {
+        fill: $color-gray-15;
+
+        &:hover, &:focus {
+            border-color: $color-gray-15;
+            color: $color-gray-15;
+        }
+    }
+
+    .ads-c-btn--tertiary.ads-is-disabled:hover &, .ads-c-btn--tertiary.ads-is-disabled:focus &  {
+        fill: $color-gray-15;
+    }
+}
+
+/**
+ * Button icon that appears after button text
+ */
+.ads-c-btn__text + .ads-c-btn__icon {
+    margin-left: 0.5rem;
+}
+
+/**
+ * Button icon that appears before button text
+ */
+.ads-c-btn__icon + .ads-c-btn__text {
+    margin-left: 0.5rem;
+}

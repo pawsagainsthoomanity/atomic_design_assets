@@ -1,0 +1,23 @@
+<article class="ads-c-card {{ styleModifier }}">
+
+    {{# cardHeader }}
+    <header class="ads-c-card__header">
+        {{# cardDropdown }} {{> molecules-dropdown-menu }} {{/ cardDropdown }} {{# cardImage }}
+        <img src="{{ image }}" alt="{{ alt }}" class="ads-c-card__img" /> {{/ cardImage }}
+    </header>
+    {{/ cardHeader }} {{# cardBody }}
+    <div class="ads-c-card__body">
+        <h3 class="ads-c-card__title">{{ title }}</h3>
+        {{# description }}
+        <div class="ads-c-card__desc ads-c-text-passage">{{{ description }}}</div>
+        {{/ description }}
+    </div>
+    {{/ cardBody }} {{# cardFooter }}
+    <div class="ads-c-card__footer">
+        <div class="ads-c-card-link">
+            {{> organisms-button-group }}
+        </div>
+    </div>
+    {{/ cardFooter }}
+
+</article>

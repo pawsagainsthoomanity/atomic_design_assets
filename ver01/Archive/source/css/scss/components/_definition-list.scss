@@ -1,0 +1,86 @@
+/*------------------------------------*\
+    #DEFINITION LIST
+\*------------------------------------*/
+
+/**
+ * 1) Definition list (`dl`) that contains a definition term (`dt`) and a definition description (`dd`)
+ */
+.ads-c-definition-list {
+}
+
+.ads-c-definition-list--vertical {
+	display: flex;
+	flex-wrap: wrap;
+
+	@supports (display: grid) {
+		display: grid;
+		grid-column-gap: 1rem;
+		grid-row-gap: 2rem;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		margin-bottom: 2rem;
+	}
+}
+
+/**
+ * Definition list item
+ */
+.ads-c-definition-list__item {
+	display: flex;
+
+	.ads-c-definition-list--vertical & {
+		display: block;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.ads-c-definition-list--lined & {
+		padding: 0.5rem 0;
+		border-bottom: 1px solid $color-gray-05;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
+
+/**
+ * Definition list term
+ */
+.ads-c-definition-list__term {
+	min-width: 6rem;
+	margin-right: 0.5rem;
+
+	.ads-c-definition-list--vertical & {
+		color: $color-gray-50;
+		margin-bottom: 0.5rem;
+		margin-right: 0;
+		min-width: none;
+	}
+
+	.ads-c-definition-list__item--negative & {
+		color: $color-utility-negative;
+	}
+
+	.ads-c-definition-list__item--warning & {
+		color: $color-utility-warning;
+	}
+
+	.ads-c-definition-list__item--positive & {
+		color: $color-utility-positive;
+	}
+}
+
+/**
+ * Definition list description
+ */
+.ads-c-definition-list__description {
+	margin-left: 0;
+
+	.ads-c-definition-list--vertical & {
+	    font-size: $font-size-med-2;
+	}
+
+	.ads-c-definition-list--lined & {
+	    margin-left: auto;
+	}
+}

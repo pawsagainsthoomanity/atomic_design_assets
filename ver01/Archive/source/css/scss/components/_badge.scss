@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #BADGE
+\*------------------------------------*/
+
+/**
+ * A badge is a small
+ */
+ .ads-c-badge {
+    display: inline-block;
+    border-radius: $border-radius;
+    color: $color-white;
+    background: $color-brand-blue-light;
+    font-size: $font-size-sm;
+    padding: 0.25rem 0.5rem;
+    vertical-align: middle;
+}
+
+.ads-c-badge--dark-blue {
+    background: $color-brand-blue-dark;
+}
+
+.ads-c-badge--purple {
+    background: $color-secondary-purple;
+}
+
+.ads-c-badge--negative {
+    background-color: $color-utility-negative;
+}
+
+.ads-c-badge--warning {
+    background-color: $color-utility-warning;
+}
+
+.ads-c-badge--positive {
+    background-color: $color-utility-positive;
+}

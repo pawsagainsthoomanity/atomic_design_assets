@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    #OVERFLOW CAROUSEL
+\*------------------------------------*/
+
+/**
+ * 1) A carousel used to display cards and scroll when they overflow
+ */
+ .ads-c-overflow-carousel {
+     margin-bottom: 2rem;
+ }
+
+ .ads-c-overflow-carousel__toolbar {
+     @media all and (min-width: $bp-small-2) {
+         display: flex;
+         align-items: center;
+     }
+ }
+
+ .ads-c-overflow-carousel__left {
+     margin-right: 2rem;
+ }
+
+ .ads-c-overflow-carousel__right {
+     display: flex;
+     align-items: center;
+     margin-left: auto;
+ }
+
+ .ads-c-overflow-carousel__item {
+     margin-right: 1rem;
+
+     &:last-child {
+        margin-right: 0;
+     }
+ }

@@ -1,0 +1,34 @@
+<div class="ads-c-field em-c-field--checkbox {{ styleModifier }}">
+
+    <h4 for="{{ id }}" class="ads-c-field__label">{{ label }}</h4>
+
+    <div class="ads-c-field__body">
+
+        <ul class="ads-c-option-list">
+
+            {{# checkboxes }}
+            <li class="ads-c-option-list__item">
+
+                <label class="ads-c-input-group" for="{{ id }}">
+                    <input id="{{ id }}" type="checkbox" name="{{ name }}" value="{{ value }}" class="ads-c-input-group__control em-js-checkbox-trigger"
+                        {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/
+                        readOnly }}>
+                    <span class="ads-c-input-group__text">{{ label }}</span>
+                </label>
+
+            </li>
+            <!-- end c-checkbox-list__item -->
+            {{/ checkboxes }}
+
+        </ul>
+        <!-- end c-option-list -->
+
+    </div>
+    <!-- end c-field__body -->
+
+    {{# fieldNote }}
+    <div class="ads-c-field__note">{{{ fieldNote }}}</div>
+    {{/ fieldNote }}
+
+</div>
+<!--end c-field-->

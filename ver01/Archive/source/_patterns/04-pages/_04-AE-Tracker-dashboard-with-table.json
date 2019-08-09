@@ -1,0 +1,511 @@
+{
+    "navBarStyleModifier": "ads-c-navbar--align-left ads-u-margin-bottom-none",
+    "primaryNav": {
+        "navItems": [
+            {
+                "label": "Review",
+                "url": "#"
+            },
+            {
+                "label": "Data source admin",
+                "url": "#"
+            }
+        ]
+    },
+    "utilityNav": {
+        "items": [
+            {
+                "url": "#",
+                "label": "olver.queen@iqvia.com",
+                "icon" : {
+                    "styleModifier": "ads-c-utility-nav__icon",
+                    "icon": "chevron-down"
+                },
+                "navChild" : {
+                    "navChildList": [
+                        {
+                            "label": "Menu Item 1",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 2",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "boldHero": {
+        "title": "Here's what's happening...",
+        "description": "in the last 30 days"
+    },
+    "cardListSection": {
+        "styleModifier": "ads-l-grid--2up ads-u-margin-bottom-large",
+        "cardItems": [
+            {
+                "styleModifier": "",
+                "cardBody": {
+                    "title": "Data source distribution",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "cardFooter": false
+            },
+            {
+                "styleModifier": "",
+                "cardBody": {
+                    "title": "System analysis",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "cardFooter": false
+            }
+        ]
+    },
+    "tableSection": {
+        "tableHeaderToolbar": {
+            "heading": "Event Report",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "toolbarSearch": {
+                "styleModifier": "ads-c-search--small",
+                "label": "Search",
+                "placeholder": "Search",
+                "searchFormButton": {
+                    "styleModifier": "ads-u-is-vishidden",
+                    "buttonText": "Search"
+                }
+            },
+            "toolbarDropdown" : false,
+            "toolbarButtonGroup": false
+        },
+        "dataTable": {
+            "styleModifier": "ads-c-table--center-text",
+            "tableHeaderCells": [
+                {
+                    "th": "Source"
+                },
+                {
+                    "th": "Records"
+                },
+                {
+                    "th": "Adverse event"
+                },
+                {
+                    "th": "Unex. therapeutic effect"
+                },
+                {
+                    "th": "At risk scenarios"
+                },
+                {
+                    "th": "Medical device compliant"
+                },
+                {
+                    "th": "Product quality compliant"
+                },
+                {
+                    "th": "Doubtful RSI"
+                },
+                {
+                    "th": "Country"
+                }
+            ],
+            "tableRows": [
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "Oliver Queen"
+                        },
+                        {
+                            "td": "4879"
+                        },
+                        {
+                            "td": "4"
+                        },
+                        {
+                            "td": "12"
+                        },
+                        {
+                            "td": "15"
+                        },
+                        {
+                            "td": "8"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "9"
+                        },
+                        {
+                            "td": "US"
+                        }
+                    ]
+                }
+            ],
+            "tableFooterCells": false
+        },
+        "tableFooter": {
+            "tableFooterToolbar": {
+                "toolbarSectionHeader": false,
+                "toolbarSearch": false,
+                "toolbarDropdown" : false,
+                "toolbarButtonGroup": false,
+                "toolbarPagination": true
+            }
+        }
+    },
+    "footerNav": [
+        {
+            "label": "Terms of Use",
+            "url": "#"
+        },
+        {
+            "label": "Privacy Policy",
+            "url": "#"
+        }
+    ]
+}

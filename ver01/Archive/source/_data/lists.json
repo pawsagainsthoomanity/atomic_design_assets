@@ -1,0 +1,48 @@
+{
+    "definitionList": {
+		"items": [
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description"
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description"
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description"
+			}
+		]
+	},
+    "cardItems": [
+        {},
+        {}
+    ],
+    "blockItems": [
+        {},
+        {}
+    ],
+    "splitItems": [
+        {
+        },
+        {
+        }
+    ],
+    "colorItems": [
+        {
+            "backgroundColor": "#000"
+        },
+        {
+            "backgroundColor": "#000"
+        }
+    ],
+    "contentItems": [
+        {
+            "title": "Do"
+        },
+        {
+            "title": "Don't"
+        }
+    ]
+}

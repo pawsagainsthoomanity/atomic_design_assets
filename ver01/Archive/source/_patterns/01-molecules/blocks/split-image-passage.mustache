@@ -1,0 +1,19 @@
+<div class="ads-c-split-image-passage {{ styleModifier }}">
+	<div class="ads-c-split-image-passage__inner ads-l-container">
+		<div class="ads-c-split-image-passage__body">
+			<h2 class="ads-c-split-image-passage__title ">{{ title }}</h2>
+
+			<div class="ads-c-split-image-passage__desc ads-c-text-passage">
+				{{{ description }}}
+			</div>
+
+			{{# colorBlocks }}
+			{{> organisms-color-block-list}}
+			{{/ colorBlocks }}
+		</div>
+
+		<div class="ads-c-split-image-passage__media">
+			<img src={{ image }} alt={{ alt }} class="ads-c-split-image-passage__img" />
+		</div>
+	</div>
+</div>

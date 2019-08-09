@@ -1,0 +1,140 @@
+/*------------------------------------*\
+    #NAVBAR
+\*------------------------------------*/
+
+/**
+ * 1) A header component that contains branding, primary navigation,
+ *    utility navigation, and other global elements
+ */
+.ads-c-navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 3.5rem;
+    background: $color-brand-blue-gradient-from-center;
+    color: $color-white;
+    margin-bottom: 2rem;
+}
+
+/**
+ * Fixed navbar
+ * 1) Affixes the navbar to the top of the viewport
+ */
+.ads-c-navbar--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/**
+ * Vertical navbar
+ * 1) Stacks items within the navbar. Used with two column layout primarily
+ */
+.ads-c-navbar--vertical {
+    margin-bottom: 0;
+    background-image: none;
+    background: $color-brand-blue-gradient;
+
+    @media all and (min-width: $bp-large) {
+        height: auto;
+        background: $color-brand-blue-gradient-vertical;
+    }
+}
+
+/**
+ * Navbar inner wrapper
+ * 1) This is coupled with ads-l-container to contain the
+ *    contents of the navbar
+ * 2) Set to display flex to place items within side-by-side
+ */
+.ads-c-navbar__inner {
+    display: flex; /* 2 */
+    align-items: center;
+    width: 100%;
+
+    /**
+     * Navbar inner wrapper within vertical navbar
+     * 1) Set to display block to stack items within.
+     */
+    .ads-c-navbar--vertical & {
+        @media all and (min-width: $bp-large) {
+            display: block;
+            padding-top: 2rem;
+            min-height: 100vh;
+        }
+    }
+}
+
+/**
+ * Nav container
+ * 1) Container that houses the solid nav, primary nav, and utility nav
+ * 2) This can only live within the navbar
+ */
+.ads-c-nav-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: $color-brand-blue-gradient;
+    z-index: 2;
+
+    /**
+     * Active nav Container
+     * 1) This class is toggled on/off when menu button is clicked
+     */
+    &.ads-is-active {
+        display: block;
+    }
+
+    /**
+     * Nav container within left aligned navbar
+     * 1) Removes margin-left: auto so that items within nav container shift left
+     * on larger screens
+     */
+    .ads-c-navbar--align-left & {
+        @media all and (min-width: $bp-large) {
+            margin-left: 0; /* 1 */
+            flex: 1 0 auto;
+        }
+    }
+
+    /**
+     * Nav container within vertical navbar
+     */
+    .ads-c-navbar--vertical & {
+
+        /**
+         * Active nav container within vertical navbar
+         */
+        &.ads-is-active {
+            display: block;
+        }
+
+        @media all and (min-width: $bp-large) {
+            display: block;
+        }
+    }
+
+    @media all and (min-width: $bp-large) {
+        display: flex;
+        position: static;
+        width: auto;
+        margin-left: auto;
+        background: none;
+    }
+}
+
+/**
+ * Navbar button
+ * 1) Menu button of the navbar that can toggle the nav container open/closed
+ * on small screens.
+ */
+.ads-c-navbar__btn.ads-c-btn {
+    margin-left: auto;
+
+    @media all and (min-width: $bp-large) {
+        display: none;
+    }
+}

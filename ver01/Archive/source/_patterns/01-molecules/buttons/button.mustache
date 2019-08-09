@@ -1,0 +1,27 @@
+<{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a href="{{ url }}" {{/ linkTag }} class="ads-c-btn {{ styleModifier }}"
+    {{# buttonTitle}}title="{{ buttonTitle }}" {{/ buttonTitle}}{{# buttonIsToggle }} data-btn-icon-swap="{{ iconPath }}{{ buttonIconSwap }}"
+    {{/ buttonIsToggle }}>
+
+    <div class="ads-c-btn__inner">
+
+        {{# buttonIcon }}
+        <svg class="ads-c-btn__icon {{# buttonIsToggle }}js-btn-icon{{/ buttonIsToggle }}">
+            <use href="{{ iconPath }}#{{ buttonIcon }}"></use>
+        </svg>
+        {{/ buttonIcon }}
+
+        {{# buttonText }}
+        <span class="ads-c-btn__text">{{ buttonText }}</span>
+        {{/ buttonText }}
+
+        {{# buttonIconAfter }}
+        <svg class="ads-c-btn__icon {{# buttonIsToggle }}js-btn-icon{{/ buttonIsToggle }}">
+            <use href="{{ iconPath }}#{{ buttonIconAfter }}"></use>
+        </svg>
+        {{/ buttonIconAfter }}
+
+    </div>
+    <!--end c-btn__inner-->
+
+</{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a{{/ linkTag }}>
+<!-- end c-btn -->

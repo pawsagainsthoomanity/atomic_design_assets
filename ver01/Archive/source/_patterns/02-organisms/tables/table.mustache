@@ -1,0 +1,60 @@
+<table class="ads-c-table {{ styleModifier }}">
+
+    <thead class="ads-c-table__header">
+
+        <tr class="ads-c-table__header-row">
+            {{# tableHeaderCells }}
+            <th scope="col" class="ads-c-table__header-cell {{ tableHeaderModifier }}">{{ th }}</th>
+            {{/ tableHeaderCells }}
+        </tr>
+        <!-- c-table__header-row -->
+
+    </thead>
+    <!-- end c-table__header -->
+
+    <tbody class="ads-c-table__body {{ tableBodyModifier }}">
+
+        {{# tableRows }}
+        <tr class="ads-c-table__row {{ styleModifier }}">
+
+            {{# tableCells }}
+            <td class="ads-c-table__cell {{ cellModifier }}">
+                {{# td }}
+                {{{ td }}}
+                {{/ td }}
+
+                {{# tableStatus }}
+                {{> molecules-status }}
+                {{/ tableStatus }}
+
+                {{# progressBar }}
+                {{> molecules-progress }}
+                {{/ progressBar }}
+
+                {{# tableColorBlock }}
+                {{> molecules-color-block }}
+                {{/ tableColorBlock }}
+
+            </td>
+            {{/ tableCells }}
+
+        </tr>
+        <!-- end c-table__row -->
+        {{/ tableRows }}
+
+    </tbody>
+    <!-- end c-table__body -->
+
+    <tfoot class="ads-c-table__footer">
+
+        <tr class="ads-c-table__footer-row">
+            {{# tableFooterCells }}
+            <td class="ads-c-table__footer-cell">{{ td }}</td>
+            {{/ tableFooterCells }}
+        </tr>
+
+    </tfoot>
+    <!-- end c-table__footer -->
+
+</table>
+<!--end c-table-->

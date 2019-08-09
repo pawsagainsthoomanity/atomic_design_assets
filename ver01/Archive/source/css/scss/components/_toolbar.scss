@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    #TOOLBAR
+\*------------------------------------*/
+
+/**
+ * 1) A utility bar consisting of search, pagination, and filtering options
+ */
+.ads-c-toolbar {
+	background: $color-white;
+	padding: 1rem;
+
+	.ads-c-table-object & {
+		padding: 0;
+	}
+
+	@media all and (min-width: $bp-large) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.ads-c-toolbar--lined-bottom {
+	border-bottom: 1px solid $color-gray-15;
+}
+
+/**
+ * Toolbar right container
+ * 1) Container that sits on the right on larger screens
+ */
+.ads-c-toolbar__right {
+	 margin-top: 1rem;
+
+	@media all and (min-width: $bp-large) {
+		display: flex;
+		margin-left: auto;
+		margin-top: 0;
+	}
+}
+
+.ads-c-toolbar__left {
+	@media all and (min-width: $bp-large) {
+		margin-right: 2rem;
+	}
+}
+
+/**
+ * Toolbar item
+ */
+.ads-c-toolbar__item {
+	margin-bottom: 1rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@media all and (min-width: $bp-large) {
+		margin-right: 1rem;
+		margin-bottom: 0;
+
+		&:last-child {
+			margin-right: 0;
+			margin-bottom: 0;
+		}
+	}
+}

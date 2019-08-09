@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "$color-utility-negative",
+      "value": "#E20000",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-warning",
+      "value": "#FF9300",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-positive",
+      "value": "#00C221",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-utility-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

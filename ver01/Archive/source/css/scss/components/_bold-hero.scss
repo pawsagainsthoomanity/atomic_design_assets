@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #BOLD HERO
+\*------------------------------------*/
+
+/**
+ * 1) Block containing headline, description text, that serves as a primary content area
+ * 2) Background image set inline
+ */
+.ads-c-bold-hero {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-bottom: 2rem;
+	min-height: 30vh;
+	background: $color-brand-blue-gradient-from-center;
+}
+
+.ads-c-bold-hero__body {
+    padding: 2rem;
+}
+
+/**
+ * Hero Title
+ */
+.ads-c-bold-hero__title {
+	max-width: 45rem;
+    font-size: $font-size-large;
+	color: $color-white;
+	margin-bottom: 1rem;
+}
+
+/**
+ * Hero Description
+ */
+.ads-c-bold-hero__desc {
+	color: $color-brand-blue-dull;;
+	font-size: $font-size-med;
+	margin-bottom: 1rem;
+	max-width: 35rem;
+}

@@ -1,0 +1,533 @@
+{
+    "primaryNav": {
+        "navItems": [
+            {
+                "label": "Change Roles",
+                "url": "#",
+                "navChild": {
+                    "navChildList": [
+                        {
+                            "label": "Menu Item 1",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 2",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            },
+            {
+                "navIcon": "gen-lifebelt",
+                "label": "Help",
+                "url": "#"
+            },
+            {
+                "label": "Log Out Oliver Queen",
+                "url": "#"
+            }
+        ]
+    },
+    "utilityNav": false,
+    "breadcrumbs": [
+        {
+            "breadcrumbsIconBefore": "home",
+            "label": false
+        },
+        {
+            "label": "Review"
+        }
+    ],
+    "page": {
+        "title": "Requirements",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    },
+    "pageHeaderBadges": false,
+    "definitionList": false,
+    "tableSection": {
+        "tableHeaderToolbar": {
+            "toolbarSectionHeader": {
+                "heading": "54 of 100 Requirements Complete",
+                "description": false
+            },
+            "toolbarSearch": {
+                "styleModifier": "ads-c-search--small",
+                "label": "Search",
+                "placeholder": "Search",
+                "searchFormButton": {
+                    "styleModifier": "ads-u-is-vishidden",
+                    "buttonText": "Search"
+                }
+            },
+            "toolbarDropdown": {
+                "dropdownButton": {
+                    "styleModifier": "ads-c-btn--small ads-c-btn--secondary ads-js-dropdown-trigger",
+                    "buttonIcon": "equalizer",
+                    "buttonText": "Filter"
+                },
+                "dropdownList": [
+                    {
+                        "label": "Role"
+                    },
+                    {
+                        "label": "Manager"
+                    },
+                    {
+                        "label": "Status"
+                    }
+                ]
+            },
+            "toolbarButtonGroup": {
+                "buttonGroup": [
+                    {
+                        "styleModifier": "ads-c-btn--small",
+                        "title": "Add row",
+                        "buttonText": false,
+                        "buttonIcon": "plus2"
+                    }
+                ]
+            }
+        },
+        "dataTable": {
+            "tableHeaderCells": [
+                {
+                    "th": "Course No."
+                },
+                {
+                    "th": "Revision"
+                },
+                {
+                    "th": "Title"
+                },
+                {
+                    "th": "Type"
+                },
+                {
+                    "th": "Status"
+                },
+                {
+                    "th": "Completion",
+                    "tableHeaderModifier": "ads-u-width-25"
+                }
+            ],
+            "tableRows": [
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "styleModifier": "ads-c-status--positive",
+                                    "statusIcon": "circle-check",
+                                    "label": "Complete"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "styleModifier": "ads-c-progress--positive",
+                                "max": 10,
+                                "progressValue": 10,
+                                "label": "10 of 10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "styleModifier": "ads-c-status--positive",
+                                    "statusIcon": "circle-check",
+                                    "label": "Complete"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "styleModifier": "ads-c-progress--positive",
+                                "max": 10,
+                                "progressValue": 10,
+                                "label": "10 of 10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "styleModifier": "ads-c-status--negative",
+                                    "statusIcon": "hexagon-line",
+                                    "label": "Close Training"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 10,
+                                "progressValue": 8,
+                                "label": "8 of 10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 10,
+                                "progressValue": 8,
+                                "label": "8 of 10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 30,
+                                "progressValue": 10,
+                                "label": "10 of 30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 30,
+                                "progressValue": 10,
+                                "label": "10 of 30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 30,
+                                "progressValue": 10,
+                                "label": "10 of 30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 50,
+                                "progressValue": 4,
+                                "label": "4 of 50"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 10,
+                                "progressValue": 8,
+                                "label": "8 of 10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 30,
+                                "progressValue": 10,
+                                "label": "10 of 30"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 50,
+                                "progressValue": 4,
+                                "label": "4 of 50"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "tableCells": [
+                        {
+                            "td": "24569"
+                        },
+                        {
+                            "td": "1"
+                        },
+                        {
+                            "td": "Gildim Policy LATM"
+                        },
+                        {
+                            "td": "Document"
+                        },
+                        {
+                            "td": false,
+                            "tableStatus": {
+                                "status": {
+                                    "statusIcon": "recents",
+                                    "label": "INWORKS"
+                                }
+                            }
+                        },
+                        {
+                            "td": false,
+                            "progressBar": {
+                                "max": 10,
+                                "progressValue": 10,
+                                "label": "10 of 10"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tableFooterCells": false
+        }
+    },
+    "footerNav": [
+        {
+            "label": "Terms of Use",
+            "url": "#"
+        },
+        {
+            "label": "Privacy Policy",
+            "url": "#"
+        }
+    ]
+}

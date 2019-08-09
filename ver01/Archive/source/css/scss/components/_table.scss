@@ -1,0 +1,66 @@
+/*------------------------------------*\
+	#TABLE
+\*------------------------------------*/
+
+/**
+ * 1) Data Table
+ */
+.ads-c-table {
+	min-width: 600px; /* 2 */
+	font-size: $font-size-sm-2;
+}
+
+.ads-c-table--center-text {
+	text-align: center;
+}
+
+/**
+ * Table Header
+ */
+.ads-c-table__header {
+	background: $color-gray-02;
+}
+
+/**
+ * Table Header Cell
+ */
+.ads-c-table__header-cell {
+	padding: 0.8rem;
+	font-weight: $font-primary-weight-bold;
+}
+
+/**
+ * Table Row
+ */
+.ads-c-table__row {
+	border-bottom: 1px solid $color-gray-05;
+
+	&:hover, &:focus {
+		background: $color-brand-blue-trans-08;
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+/**
+ * Table Cell
+ */
+.ads-c-table__cell {
+	padding: 1.6rem 0.8rem;
+}
+
+/**
+ * Table Footer
+ */
+.ads-c-table__footer {
+
+}
+
+/**
+ * Table Footer Cell
+ */
+.ads-c-table__footer-cell {
+	padding: 0.8rem;
+}

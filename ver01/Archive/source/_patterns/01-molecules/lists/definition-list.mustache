@@ -1,0 +1,22 @@
+{{# definitionList }}
+<dl class="ads-c-definition-list {{ styleModifier }}">
+
+    {{# items }}
+    <div class="ads-c-definition-list__item {{ itemModifier }}">
+
+        <dt class="ads-c-definition-list__term">
+            {{ term }}
+        </dt><!--end ads-c-definition-list__term-->
+
+        <dd class="ads-c-definition-list__description ads-c-text-passage">
+            {{# description }}
+            {{{ description }}}
+            {{/ description }}
+
+        </dd><!--end ads-c-definition-list__description-->
+
+    </div><!--end ads-c-definition-list__item-->
+    {{/ items }}
+
+</dl><!--end ads-c-definition-list-->
+{{/ definitionList }}

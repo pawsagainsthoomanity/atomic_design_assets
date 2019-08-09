@@ -1,0 +1,117 @@
+{
+	"title" : "Pattern Lab",
+	"heading" : "Page Header",
+	"subheading" : "Subtext For Header",
+	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	"url" : "#",
+	"cta" : "Call To Action",
+	"placeholder" : "Placeholder Text",
+	"listItem" : "List Item",
+	"listItemNested" : "Nested List Item",
+	"term" : "Term",
+	"definition" : "This is the definition of the term.",
+	"badge" : "23",
+	"buttonClass" : "",
+	"shareButton" : false,
+	"cardActionsClass" : "mdl-card--border",
+	"headerClass" : "",
+	"linkList" : [
+		{"text" : "Link 1"},
+		{"text" : "Link 2"},
+		{"text" : "Link 3"},
+		{"text" : "Link 4"}
+	],
+	"searchButton" : "search",
+	"tabsClass" : "",
+	"tabList" : [
+		{
+			"url" : "#id-1",
+			"text" : "Tab 1",
+			"activeClass" : "is-active"
+		},
+		{
+			"url" : "#id-2",
+			"text" : "Tab 2"
+		},
+		{
+			"url" : "id-3",
+			"text" : "Tab 3"
+		},
+		{
+			"url" : "#id-4",
+			"text" : "Tab 4"
+		}
+	],
+	"contentList" : [
+		{
+			"url" : "id-1",
+			"activeClass" : "is-active"
+		},
+		{
+			"url" : "id-2"
+		},
+		{
+			"url" : "id-3"
+		},
+		{
+			"url" : "id-4"
+		}
+	],
+	"columnClass" : "mdl-cell--1-col",
+	"gridList" : [
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"}
+	],
+	"progressBarClass" : "",
+	"progressBarNumber" : "30",
+	"spinnerColorClass" : "",
+	"menuIcon" : "more_vert",
+	"menuClass" : "mdl-menu--bottom-left mdl-js-ripple-effect",
+	"sliderMin" : "0",
+	"sliderMax" : "100",
+	"sliderValue" : "0",
+	"tableClass" : "mdl-data-table--selectable mdl-shadow--2dp",
+	"table" : {
+	  "thead" : {
+		  "th" : [
+			  { 
+				  "title" : "Table Heading 1",
+				  "nonnumericClass" : true
+			  },
+			  { "title" : "Table Heading 2" },
+			  { "title" : "Table Heading 3" },
+			  { "title" : "Table Heading 4" }
+		  ]
+	  },
+		"tbody" : {
+			"tr" : [
+				{
+					"td" : [
+						{ 
+							"text" : "row 1 cell 1",
+							"nonnumericClass" : true 
+						},
+						{ "text" : "row 1 cell 2" },
+						{ "text" : "row 1 cell 3" },
+						{ "text" : "row 1 cell 4" }
+					]
+				}
+			]
+		}	
+	},
+	"checkboxClass" : "mdl-js-ripple-effect",
+	"checkboxLabel" : "Checkbox",
+	"checkedCheckbox" : "checked",
+	"radioClass" : "mdl-js-ripple-effect",
+	"radioLabel" : "First",
+	"checkedRadio" : "",
+	"iconToggleClass" : "mdl-js-ripple-effect",
+	"iconToggleText" : "format_bold",
+	"switchClass" : "mdl-js-ripple-effect",
+	"tooltipClass" : "",
+	"tooltipIcon" : "add"
+}

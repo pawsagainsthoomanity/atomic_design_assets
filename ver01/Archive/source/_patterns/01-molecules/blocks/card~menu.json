@@ -1,0 +1,12 @@
+{
+    "styleModifier": "ads-c-card--menu",
+    "cardHeader": {
+        "cardDropdown" : {
+            "dropdownButton": {
+                "styleModifier": "ads-c-btn--small ads-c-btn--bare ads-js-dropdown-trigger",
+                "buttonIcon": "dots",
+                "buttonText": false
+            }
+        }
+    }
+}

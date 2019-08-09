@@ -1,0 +1,6 @@
+{
+    "alert": {
+        "styleModifier": "ads-c-alert--negative",
+        "description": "This is a negative alert. This is used to display an error message to the user"
+    }
+}

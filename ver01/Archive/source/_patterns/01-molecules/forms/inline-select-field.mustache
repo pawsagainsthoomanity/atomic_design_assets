@@ -1,0 +1,15 @@
+<form class="ads-c-field ads-c-field--inline {{ styleModifier }}" action="#" method="post">
+
+	<label for="{{ id }}" class="ads-c-field__label">{{ label }}</label>
+
+    <div class="ads-c-field__body">
+
+        {{> atoms-select }}
+
+    </div><!-- end ads-c-field__body -->
+
+	{{# fieldButton }}
+	{{> molecules-button }}
+	{{/ fieldButton }}
+
+</form><!-- end ads-c-field -->

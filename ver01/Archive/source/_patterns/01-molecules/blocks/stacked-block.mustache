@@ -1,0 +1,33 @@
+<div class="ads-c-stacked-block {{ styleModifier }}">
+
+	{{# blockHeader }}
+	<div class="ads-c-stacked-block__header">
+
+		{{# blockImage }}
+		<a href="{{ url }}" class="ads-c-stacked-block__link">
+			<img src={{ image }} alt={{ alt }} class="ads-c-stacked-block__img" />
+		</a>
+		{{/ blockImage }}
+
+		<a href="{{ url }}" class="ads-c-stacked-block__title">
+            <h3 class="ads-c-stacked-block__title-text">{{ title }}</h3>
+        </a>
+
+	</div><!-- end ads-c-stacked-block__header -->
+	{{/ blockHeader }}
+
+	{{# blockBody }}
+	<div class="ads-c-stacked-block__body">
+		<p class="ads-c-stacked-block__desc">{{ excerpt }}</p>
+	</div><!-- end ads-c-stacked-block__body -->
+	{{/ blockBody }}
+
+	{{# blockFooter }}
+	<div class="ads-c-stacked-block__footer">
+
+		{{{ htmlText }}}
+
+	</div><!-- end ads-c-stacked-block__footer -->
+	{{/ blockFooter }}
+
+</div><!-- end ads-c-stacked-block -->

@@ -1,0 +1,6 @@
+{
+    "alert": {
+        "styleModifier": "ads-c-alert--positive",
+        "description": "This is a positive alert. This is used to display a success message to the user"
+    }
+}

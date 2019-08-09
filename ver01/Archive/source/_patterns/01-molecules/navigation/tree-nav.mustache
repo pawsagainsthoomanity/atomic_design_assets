@@ -1,0 +1,66 @@
+<nav class="ads-c-tree-nav" role="navigation">
+
+    <ul class="ads-c-tree-nav__list">
+
+        {{# navItems }}
+		<li class="ads-c-tree-nav__item {{ styleModifier }}">
+            {{^ skip }}
+			<{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a href="{{ url }}"{{/ linkTag }} href="{{ url }}" class="ads-c-tree-nav__link {{# navChild }}ads-js-tree-nav-dropdown-trigger{{/ navChild }}" {{# dataAttribute }} {{{ dataAttribute }}} {{/ dataAttribute}}>
+                {{# label }}
+				<span class="ads-c-tree-nav__link-text">{{ label }}</span>
+                {{/ label }}
+
+                {{# navIconSmallScreen }}
+				{{> atoms-icon }}
+                {{/ navIconSmallScreen }}
+
+                {{# navIcon }}
+                <svg class="ads-c-icon ads-c-tree-nav__icon">
+                    <use xlink:href="{{ iconPath }}#{{ navIcon }}"></use>
+                </svg>
+                {{/ navIcon }}
+
+			</{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a{{/ linkTag }}><!--end ads-c-tree-nav__link-->
+            {{/ skip }}
+
+            {{# navChild }}
+                <ul class="ads-c-tree-nav__sublist ads-js-tree-nav-dropdown">
+
+                    {{# navChildList }}
+                    <li class="ads-c-tree-nav__subitem">
+
+                        <a href="{{ url}}" class="ads-c-tree-nav__sublink {{# subnavChild }}ads-js-tree-nav-dropdown-trigger{{/ subnavChild }}">
+                            <span class="ads-c-tree-nav__sublink-text">{{ label }}</span>
+                            {{# subnavIcon }}
+                            <svg class="ads-c-icon ads-c-tree-nav__icon">
+                                <use xlink:href="{{ iconPath }}#{{ navIcon }}"></use>
+                            </svg>
+                            {{/ subnavIcon }}
+                        </a>
+
+                        {{# subnavChild }}
+                        <ul class="ads-c-tree-nav__sublist ads-js-tree-nav-dropdown">
+
+                            {{# subnavChildList }}
+                            <li class="ads-c-tree-nav__subitem">
+
+                                <a href="{{ url}}" class="ads-c-tree-nav__sublink {{# subnavChild }}ads-js-tree-nav-dropdown-trigger{{/ subnavChild }}">{{ label }}</a>
+
+                            </li><!-- end ads-c-tree-nav__sublist__item -->
+                            {{/ subnavChildList }}
+
+                        </ul><!-- end ads-c-tree-nav__sublist -->
+                        {{/ subnavChild }}
+
+                    </li><!-- end ads-c-tree-nav__sublist__item -->
+                    {{/ navChildList }}
+
+                </ul><!-- end ads-c-tree-nav__sublist -->
+            {{/ navChild }}
+
+		</li><!-- end ads-c-tree-nav__list__item -->
+        {{/ navItems }}
+
+	</ul><!-- end ads-c-tree-nav__list -->
+
+</nav><!-- end ads-c-tree-nav -->

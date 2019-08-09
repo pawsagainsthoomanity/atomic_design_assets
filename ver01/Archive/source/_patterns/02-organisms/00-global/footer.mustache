@@ -1,0 +1,24 @@
+<footer class="ads-c-footer {{ footerStyleModifier }}" role="contentinfo">
+
+	<div class="ads-c-footer__inner ads-l-container">
+		<div class="ads-c-footer__primary">
+			{{# footerNavContainer }}
+			{{> molecules-footer-nav }}
+			{{/ footerNavContainer }}
+
+			{{# footerLogo }}
+			{{> molecules-logo }}
+			{{/ footerLogo }}
+		</div>
+		
+		{{# footerMeta }}
+		<div class="ads-c-footer__secondary">
+			<p class="ads-c-footer__meta">{{ footerMeta }}</p>
+		</div>
+		{{/ footerMeta }}
+
+	</div>
+	<!--end l-container-->
+
+</footer>
+<!--end c-footer-->

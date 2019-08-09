@@ -1,0 +1,26 @@
+<header class="ads-c-navbar {{ navBarStyleModifier }}">
+    <div class="ads-c-navbar__inner ads-l-container">
+        {{> molecules-logo }}
+
+        {{# navToggle }}
+        {{> molecules-button }}
+        {{/ navToggle }}
+
+        <div class="ads-c-nav-container ads-js-nav-panel">
+
+            {{# solidNav }}
+            {{> molecules-solid-nav }}
+            {{/ solidNav }}
+
+            {{# primaryNav }}
+            {{> molecules-primary-nav }}
+            {{/ primaryNav }}
+
+            {{# treeNav }}
+            {{> molecules-tree-nav }}
+            {{/ treeNav }}
+
+            {{> molecules-utility-nav }}
+        </div>
+    </div>
+</header>

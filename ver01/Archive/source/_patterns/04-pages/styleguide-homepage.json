@@ -1,0 +1,296 @@
+{
+    "verticalNavbar": {
+        "navBarStyleModifier": "ads-c-navbar--vertical",
+        "solidNav": {
+            "solidNavItems": [
+                {
+                    "solidNavIcon": "resources-three",
+                    "label": "Resources"
+                },
+                {
+                    "solidNavIcon": "contact-three",
+                    "label": "Contact"
+                }
+            ]
+        },
+        "primaryNav": false,
+        "treeNav": {
+            "navItems": [
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Getting Started",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Guidelines",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Code conventions"
+    						},
+    						{
+    							"label": "Writing Guidelines"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Styles",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Color Palette"
+    						},
+    						{
+    							"label": "Typography"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Components",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Blocks and cards",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Buttons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Charts and graphs",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Form controls",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Headers and footers",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Imagery",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Icons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Interactive panels",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Lists and collections",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Media",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Messaging",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Navigation",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Tables",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Text",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Utilities",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Patterns & Flows",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Contribute",
+    				"url": "#"
+    			}
+    		]
+        },
+        "utilityNav": false
+    },
+    "hero": {
+        "image": "../../images/hero-homepage.jpg",
+        "title": "The Apollo Design System",
+        "description": "A set of components, guidelines, and resources for building applications that are uniquely IQVIA.",
+        "buttonGroup": [
+            {
+                "buttonTag": false,
+                "linkTag": true,
+                "url": "#",
+                "buttonText": "Get Started"
+            },
+            {
+                "buttonTag": false,
+                "linkTag": true,
+                "url": "#",
+                "styleModifier": "ads-c-btn--secondary",
+                "buttonText": "Resources"
+            }
+        ]
+    },
+    "splitItems": [
+        {
+            "image": "../../images/chart.png",
+            "title": "On a Mission",
+            "description": "The Apollo Design System is a set of components, principles, and resources that define a common foundation for building applications that are uniquely IQVIA. Apollo’s language of interaction and design is tuned to helping people distill data and derive insight from complexity. It makes our customers’ lives easier."
+        },
+        {
+            "styleModifier": "ads-c-split-image-passage--reversed ads-c-split-image-passage--white",
+            "image": "../../images/img-work.svg",
+            "title": "Your Work, Weightless",
+            "description": "It also makes your life easier as a designer, developer, or product lead. Apollo gathers our collective experience in data-rich interfaces to document the best solutions to common scenarios in IQVIA software. Instead of reinventing solutions to solved problems, you can drop in the solution and apply your smarts and creativity to newer, more interesting problems. Apollo will help you work faster, more collaboratively, more creatively, more consistently."
+        },
+        {
+            "image": "../../images/img-small-step.svg",
+            "title": "One Small Step",
+            "description": "We’re just getting started, together. This first release of Apollo is far from complete. Many more components, guidelines, and solutions are on the way, and we want you to help us plot the course. <a href='#'>Let the Apollo team know</a> what's working and what's not—and what you'd like to see next in the system. Or even better, <a href='#'>contribute</a> your own solutions, bug fixes, or enhancements."
+        }
+    ],
+    "footerStyleModifier": "ads-c-footer--center",
+    "footerNav": [
+        {
+            "label": "Release History",
+            "url": "#"
+        },
+        {
+            "label": "Contribute",
+            "url": "#"
+        }
+    ],
+    "footerMeta": "Apollo Design System v0.6 | Made with Moon Dust by the Apollo Team. © 2018 IQVIA."
+}

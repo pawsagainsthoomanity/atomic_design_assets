@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    #SECTION
+\*------------------------------------*/
+
+/**
+ * Section
+ * 1) A section is a discrete section of a web page
+ */
+.ads-c-section {
+    margin-bottom: 2rem;
+}
+
+/**
+ * Section header
+ * 1) contains the section title, description and other header content
+ */
+.ads-c-section__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    //TODO: refactor - hack to tighten up component example
+    .ads-c-well & {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Section title
+ */
+.ads-c-section__title {
+    margin: 0;
+
+    //TODO: Refactor
+    code {
+        position: relative;
+        bottom: 4px;
+        margin-left: 0.5rem;
+        font-weight: normal;
+    }
+    
+}
+
+/**
+ * Section description
+ */
+.ads-c-section__description {
+    margin: 0;
+}

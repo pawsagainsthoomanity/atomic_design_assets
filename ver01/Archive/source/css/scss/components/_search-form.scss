@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    #SEARCH FORM
+\*------------------------------------*/
+
+/**
+ * 1) A form field used to search
+ */
+
+.ads-c-search__input {
+    .ads-c-search--small & {
+        padding: 5px;
+    }
+}
+
+.ads-c-search__body {
+    display: flex;
+    position: relative;
+}
+
+
+/**
+ * 1) A form field used to search
+ */
+.ads-c-search__input.ads-c-search__input {
+    border-radius: $border-radius;
+    padding-left: 2rem;
+}
+
+.ads-c-search__icon.ads-c-icon {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    fill: $color-gray-50;
+}

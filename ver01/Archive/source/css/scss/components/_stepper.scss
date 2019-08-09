@@ -1,0 +1,159 @@
+
+.ads-c-stepper__container {
+	width:100%;
+	margin-top: 50px;
+   
+   }
+   
+   /* Make the element pulse (grow large and small slowly) */
+   /* Usage
+	   .myElement {
+		   animation: pulsate 1s ease-out;
+		   animation-iteration-count: infinite;
+		   opacity: 1; 
+	   }
+   */
+   @-webkit-keyframes pulsate {
+	   0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+	   50% {opacity: 1.0;}
+	   100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+   }
+   
+   /* Make the element's opacity pulse*/
+   /* Usage
+	   .myElement {
+		   animation: opacityPulse 1s ease-out;
+		   animation-iteration-count: infinite;
+		   opacity: 0; 
+	   }
+   */
+   @-webkit-keyframes opacityPulse {
+	   0% {opacity: 0.0;}
+	   50% {opacity: 1.0;}
+	   100% {opacity: 0.0;}
+   }
+   
+   
+   .pulsate {
+	   animation: pulsate 3.5s ease-out;
+	   animation-iteration-count: infinite; 
+	   opacity: 0;
+	   border: 2px solid #55c200;
+	   border-radius: 50%;
+	   height: 28px;
+	   width: 28px;
+	   position: relative;
+	   top: -38px;
+	   left: 0px;
+	   display: block;
+	   margin-top: 0px;
+	   text-align: center;
+	   margin: 0 auto 10px auto; 
+	   z-index: -10;
+   }
+   
+   
+   
+   .ads-c-stepper__progressbar {
+	counter-reset: step; 
+   }
+   .ads-c-stepper__progressbar li{
+	list-style-type: none; 
+	float: left; 
+	width: 25%; 
+	position:relative; 
+	text-align: center;
+	font-weight: 500;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #b5b5b5;
+	
+	
+   }
+   .ads-c-stepper__progressbar li:before {
+   /* CSS for creating steper block before the li item*/
+	content:counter(step); 
+	counter-increment: step; 
+	background-color: #d9d9d9;
+	line-height: 24px; 
+	display:block; 
+	text-align: center;
+	margin: 0 auto 10px auto; 
+	border-radius: 50%; 
+   
+	color: white; 
+	width: 24px;
+	height: 24px;
+	
+   }
+   
+   .ads-c-stepper__progressbar li:after {
+   /* CSS for creating horizontal line*/
+	content:'';
+	position: absolute; 
+	width:100%;
+	height:2px;
+	background-color: #b5b5b5;
+	top: 12px; 
+	left: -50%; 
+	z-index: -1; 
+   }
+   
+   .ads-c-stepper__progressbar li.ads-c-stepper--current:after {
+   /* CSS for creating horizontal line*/
+	content:'';
+	position: absolute; 
+	width:100%;
+	height:2px;
+	background-color: #55c200 !important;
+	top: 12px; 
+	left: -50%; 
+	z-index: -1; 
+   }
+   
+   .ads-c-stepper__progressbar li:first-child:after {
+	content:none;
+	
+   }
+   
+   .ads-c-stepper__progressbar li.ads-c-stepper--active p{
+	color:#000;
+	position: relative;
+	top:-45px;
+   
+	display: block;
+	
+   }
+   .ads-c-stepper__progressbar li.li.ads-c-stepper--complete {
+   color:#55c200;
+   position: relative;
+   display: block; 
+   
+   }
+   .ads-c-stepper__progressbar li.ads-c-stepper--complete p{
+	color:#000;
+	position: relative;
+	top: -3px;
+	display: block;
+	
+   }
+   
+   .ads-c-stepper__progressbar li.ads-c-stepper--active .ads-c-stepper--complete:after{
+	 background-color:#55c200;
+	 
+   }
+   
+   .ads-c-stepper__progressbar li.ads-c-stepper--current:after  {
+   background-color:#b5b5b5;
+   }
+   
+   
+   
+   .ads-c-stepper__progressbar li.ads-c-stepper--active:before {
+	background-color:#55c200;
+   }
+   .ads-c-stepper__progressbar li.ads-c-stepper--active + li:after{
+	background-color: b5b5b5; 
+   }
+   
+   

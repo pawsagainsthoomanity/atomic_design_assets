@@ -1,0 +1,23 @@
+<ol class="ads-c-pagination" role="navigation" aria-labelledby="pagination-label">
+
+	{{# pagination }}
+	<li class="ads-c-pagination__item">
+
+		<a class="ads-c-pagination__link  {{ styleModifier }}" href="{{ url }}"{{# aria-disabled }} aria-disabled="{{ aria-disabled }}"{{/ aria-disabled }}>
+
+			{{# paginationIcon }}
+			<svg class="ads-c-icon ads-c-pagination__icon">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ paginationIcon }}"></use>
+			</svg>
+			{{/ paginationIcon }}
+
+			{{# label }}
+			{{ label }}
+			{{/ label }}
+
+		</a><!-- end ads-c-pagination__link -->
+
+	</li><!-- end ads-c-pagination__item -->
+	{{/ pagination }}
+
+</ol><!-- end ads-c-pagination -->

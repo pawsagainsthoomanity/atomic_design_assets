@@ -1,0 +1,17 @@
+{
+    "contentBlockSection": {
+        "styleModifier": "ads-l-grid--2up ads-l-grid--2up-wide",
+        "contentItems": [
+            {
+                "styleModifier": "ads-c-content-block--positive",
+                "title": "Do",
+                "description": "<ul><li>Do this</li><li>And this</li><li>Then this</li></ul>"
+            },
+            {
+                "styleModifier": "ads-c-content-block--negative",
+                "title": "Don't",
+                "description": "<ul><li>Do this</li><li>And this</li><li>Then this</li></ul>"
+            }
+        ]
+    }
+}

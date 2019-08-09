@@ -1,0 +1,6 @@
+{
+    "alert": {
+        "styleModifier": "ads-c-alert--warning",
+        "description": "This is a warning alert. This is used to display a message of caution to the user"
+    }
+}

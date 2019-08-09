@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    #PAGE HEADER
+\*------------------------------------*/
+
+/**
+ * 1) Container that consists of of a page header kicker, title, and description
+ */
+.ads-c-page-header {
+    margin-bottom: 2rem;
+    max-width: $l-linelength-width;
+}
+
+/**
+ * Page header kicker
+ */
+.ads-c-page-header__kicker {
+    @include kickerStyles();
+    font-weight: normal;
+    color: $color-gray-40;
+    margin-bottom: 1rem;
+}
+
+/**
+ * Page header title
+ */
+.ads-c-page-header__title {
+    font-size: $font-size-large;
+	margin-bottom: 1rem;
+}
+
+/**
+ * Page description
+ */
+.ads-c-page-header__desc {
+    color: $color-gray-50;
+    margin-bottom: 0;
+}

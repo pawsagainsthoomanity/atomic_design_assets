@@ -1,0 +1,105 @@
+/*------------------------------------*\
+    #TABS
+\*------------------------------------*/
+
+/**
+ * 1) Unordered list of links where the each link targets different information
+ */
+.ads-c-tabs {
+	margin-bottom: 1rem;
+}
+
+/**
+ * Tabs list
+ * 1) Display flex used to put tabs in a row
+ * 2) Add gravity scrolling to iOS
+ * 3) Hide scrollbars in IE but keep scroll behavior
+ * 4) This complex group of background images provides scrolling shadows for overflow
+ *    and creates a bottom gray border for IE to display properly.
+ */
+.ads-c-tabs__list {
+	display: flex; /* 1 */
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch; /* 2 */
+	-ms-overflow-style: none; /* 3 */
+	overflow-y: visible;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSIjZTVlNWU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCSA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSIjZTVlNWU1IiAvPgo8L3N2Zz4K)
+			bottom left,
+		linear-gradient(to right, $color-gray-02 30%, hsla(0, 0%, 100%, 0)),
+		linear-gradient(to right, hsla(0, 0%, 100%, 0), $color-gray-02 70%) right,
+		linear-gradient(to right, $color-gray-15 0%, transparent 70%),
+		linear-gradient(to left, $color-gray-15 0%, transparent 70%) right; /* 4 */
+	background-repeat: repeat-x, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: 1px 1px, 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+	background-attachment: scroll, local, local, scroll, scroll;
+}
+
+/**
+ * Tab Item
+ * 1) Don't flex tab items so overflow auto can scroll them instead
+ */
+.ads-c-tabs__item {
+	flex-shrink: 0;
+}
+
+/**
+ * Tabs list
+ * 1) Overlap the tabs bottom border
+ */
+.ads-c-tabs__link {
+	display: block;
+    position: relative;
+	padding: 0.5rem 0;
+	margin-right: 2rem;
+    color: $color-gray-50;
+	font-size: $font-size-sm-2;
+	border-bottom-color: rgba(255, 255, 255, 0);
+	transition: all $anim-fade-quick $anim-ease;
+
+	/**
+	 * Active tab link
+	 */
+	&.ads-is-active {
+        font-weight: bold;
+        color: $color-gray-73;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            height: 4px;
+            border-radius: 5px;
+            width: 100%;
+            background: $color-brand-blue;
+        }
+	}
+
+	&:hover,
+	&:focus {
+		color: $color-gray-73;
+	}
+}
+
+/**
+ * Tab Body
+ */
+.ads-c-tabs__body {
+	padding: 1em 0;
+}
+
+/**
+ * Tab Panel
+ * 1) Display by default, and only hide if JS is available
+ */
+.ads-c-tabs__panel {
+    display: none;
+	padding: 1rem 0;
+
+	/**
+	 * Tabs panel when activated
+	 */
+	&.ads-is-active {
+		display: block; /* 1 */
+	}
+}

@@ -1,0 +1,66 @@
+{{> organisms-navbar }}
+
+<main role="main">
+
+    <div class="ads-l-container">
+
+        {{> molecules-breadcrumbs }}
+        {{> molecules-page-header }}
+
+        <div class="ads-c-box ads-u-margin-bottom-large">
+            {{# toolbar }}
+            {{> organisms-toolbar }}
+            {{/ toolbar }}
+            
+            <div class="ads-u-padding">
+                <ul class="ads-l-grid ads-l-grid--2up">
+                    {{# sectionList }}
+                    <li class="ads-l-grid__item">
+                        <section class="ads-c-section">
+                            {{# sectionHeader }}
+                            {{> molecules-section-header}}
+                            {{/ sectionHeader }}
+                            {{> molecules-definition-list }}
+                            {{# tagsSection }}
+                            {{> molecules-tags }}
+                            {{/ tagsSection }}
+                        </section>
+                    </li>
+                    {{/ sectionList }}
+                </ul>
+            </div>
+
+            {{# callToAction }}
+            {{> molecules-button }}
+            {{/ callToAction }}
+
+        </div>
+
+        <div class="ads-c-box">
+            <div class="ads-u-padding">
+                <section class="ads-c-section">
+                    {{# formSectionHeader }}
+                    {{> molecules-section-header }}
+                    {{/ formSectionHeader }}
+                    {{# commentForm }}
+                    {{> organisms-comment-form }}
+                    {{/ commentForm }}
+                </section>
+                <section class="ads-c-section">
+                    {{# commentSectionHeader }}
+                    {{> molecules-section-header }}
+                    {{/ commentSectionHeader }}
+                    {{# commentList }}
+                    {{> organisms-stacked-block-list }}
+                    {{/ commentList }}
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+    <!--end l-container"-->
+
+</main>
+
+{{> organisms-footer }}

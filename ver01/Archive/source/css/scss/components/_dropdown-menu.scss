@@ -1,0 +1,55 @@
+/*------------------------------------*\
+    #DROPDOWN MENU
+\*------------------------------------*/
+
+/**
+ * 1) Button with a dropdown menu that can be toggled on and off
+ */
+.ads-c-dropdown-menu {
+    position: relative;
+
+    .ads-c-card--menu .ads-c-card__header & {
+        position: absolute;
+        top: 0.5rem;
+        right: 0;
+    }
+}
+
+/**
+ * Dropdown menu list
+ * 1) Actual list that toggles on and off
+ * 2) Set to display: none until JS triggers an active state on the parent container
+ */
+.ads-c-dropdown-menu__list {
+    display: none; /* 2 */
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 8rem;
+    border: 1px solid $color-gray-05;
+    border-radius: $border-radius;
+    background: $color-gray-02;
+    z-index: 2;
+
+    /**
+     * Dropdown menu list within an active dropdown menu
+     */
+    .ads-c-dropdown-menu.ads-is-active & {
+        display: block;
+    }
+}
+
+/**
+ * Dropdown menu link
+ */
+.ads-c-dropdown-menu__link {
+    display: block;
+    padding: 0.5rem;
+    color: $color-gray-50;
+    transition: color $anim-fade-quick $anim-ease, background $anim-fade-quick $anim-ease;
+
+    &:hover, &:focus {
+        background: $color-brand-blue-trans-08;
+        color: $color-gray-73;
+    }
+}

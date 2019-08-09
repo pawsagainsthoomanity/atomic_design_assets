@@ -1,0 +1,17 @@
+{
+	"cardHeader": true,
+	"cardBody": true,
+	"cardFooter": true,
+	"blockHeader" : {
+		"title" : "Stacked Block Title"
+	},
+	"blockBody": {
+		"headline" : "This is the title",
+		"excerpt" : "This is some additional text that accompanies the headline, which could be used to provide a short description"
+	},
+	"blockFooter" : {
+		"htmlText" : "This is the footer"
+	},
+	"hero": true,
+	"boldHero": true
+}

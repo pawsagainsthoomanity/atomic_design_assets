@@ -1,0 +1,33 @@
+<div class="ads-c-table-object {{ styleModifier }}">
+
+    {{# tableHeader }}
+    <div class="ads-c-table-object__header">
+        {{# tableHeaderToolbar }}
+        {{> organisms-toolbar }}
+        {{/ tableHeaderToolbar }}
+    </div><!--end ads-c-table-object__header-->
+    {{/ tableHeader }}
+
+    <div class="ads-c-table-object__body">
+
+		<div class="ads-c-table-object__body-inner">
+
+            {{# dataTable }}
+	        {{> organisms-table }}
+            {{/ dataTable }}
+
+		</div><!--end ads-c-table-object__body-inner-->
+
+    </div><!--end ads-c-table-object__body-->
+
+	{{# tableFooter }}
+    <div class="ads-c-table-object__footer">
+
+        {{# tableFooterToolbar }}
+        {{> organisms-toolbar }}
+        {{/ tableFooterToolbar }}
+
+    </div><!--end ads-c-table-object__footer -->
+	{{/ tableFooter }}
+
+</div><!--end ads-c-table-object-->

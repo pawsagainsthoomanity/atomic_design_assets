@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #WRAPPER
+\*------------------------------------*/
+
+/**
+ * 1) The main wrapper <div> for the website
+ */
+
+.ads-c-box {
+    overflow: hidden;
+    background: $color-white;
+    border: 1px solid $color-gray-15;
+    margin-bottom: $spacing-large;
+    padding: $spacing;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+/**
+ * Extra Padded Box
+ * 1) Provides more padding for the box 
+ */
+.ads-c-box--padded {
+    padding: $spacing-large;
+}

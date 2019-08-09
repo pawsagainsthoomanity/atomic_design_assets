@@ -1,0 +1,14 @@
+{
+    "styleModifier": "ads-c-card--picture",
+    "cardHeader" : {
+        "cardImage": {
+            "image": "https://www.nationalgeographic.com/content/dam/adventure/rights-exempt/Summit-Gallery/prod-yourshot-1528686-10557562.jpg",
+            "alt": "mountains"
+        }
+    },
+    "cardBody": {
+        "title": "Card Title",
+        "description": false
+    },
+    "cardFooter": false
+}

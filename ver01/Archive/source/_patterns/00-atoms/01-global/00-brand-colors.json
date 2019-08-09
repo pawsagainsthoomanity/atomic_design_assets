@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "name": "$color-brand-blue",
+      "value": "#005ff1",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-dull",
+      "value": "#6a7ba7",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-light",
+      "value": "#297dfd",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-dark",
+      "value": "#3a1c66",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-gradient",
+      "value": "linear-gradient(to right, #250056, #0076ae)",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-gradient-vertical",
+      "value": "linear-gradient(to bottom, #250056, #0076ae)",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-gradient-from-center",
+      "value": "radial-gradient(circle, #0076ae, #250056 70%)",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-blue-trans-08",
+      "value": "rgba(41, 125, 253, 0.08)",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-brand-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

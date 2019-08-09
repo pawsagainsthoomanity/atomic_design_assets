@@ -1,0 +1,19 @@
+<div class="ads-c-field {{ styleModifier }}">
+
+    <label for="{{ id }}" class="ads-c-field__label">{{ label }}</label>
+
+    <div class="ads-c-field__body">
+
+        <textarea class="ads-c-textarea {{# characterCount }}em-js-character-counter{{/ characterCount }}" id="{{ id }}" placeholder="{{ placeholder }}"
+            value="{{ value }}" rows="5" {{# characterCount }}data-em-textarea-length="{{ characterCount }}" {{/ characterCount
+            }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>{{ value }}</textarea>
+
+    </div>
+    <!-- end c-field__body -->
+
+    {{# fieldNote }}
+    <div class="ads-c-field__note">{{{ fieldNote }}}</div>
+    {{/ fieldNote }}
+
+</div>
+<!-- end c-field -->

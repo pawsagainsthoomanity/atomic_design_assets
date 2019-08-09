@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #CARD LIST
+\*------------------------------------*/
+
+/**
+ * 1) A collection of cards displayed as a list or grid
+ */
+.ads-c-card-list {
+
+    .ads-c-overflow-carousel & {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 1rem 0;
+        overflow-x: scroll;
+
+    }
+
+}
+
+
+.ads-c-card-list__item {
+    .ads-c-overflow-carousel & {
+        min-width: 22rem;
+        margin-right: 1rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

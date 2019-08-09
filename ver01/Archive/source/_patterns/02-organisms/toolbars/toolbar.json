@@ -1,0 +1,40 @@
+{
+    "toolbarSectionHeader": true,
+    "toolbarSearch": {
+        "styleModifier": "ads-c-search--small",
+        "label": "Search",
+        "placeholder": "Search",
+        "searchFormButton": {
+            "styleModifier": "ads-u-is-vishidden",
+            "buttonText": "Search"
+        }
+    },
+    "toolbarDropdown": {
+        "dropdownButton": {
+            "styleModifier": "ads-c-btn--small ads-c-btn--secondary ads-js-dropdown-trigger",
+            "buttonIcon": "equalizer",
+            "buttonText": "Filter"
+        },
+        "dropdownList": [
+            {
+                "label": "Role"
+            },
+            {
+                "label": "Manager"
+            },
+            {
+                "label": "Status"
+            }
+        ]
+    },
+    "toolbarButtonGroup": {
+        "buttonGroup": [
+            {
+                "styleModifier": "ads-c-btn--small",
+                "title": "Add row",
+                "buttonText": false,
+                "buttonIcon": "plus2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "name": "$color-gray-02",
+      "value": "#f8f9fb",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-05",
+      "value": "#f2f2f2",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-15",
+      "value": "#d9d9d9",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-29",
+      "value": "#b5b5b5",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-40",
+      "value": "#999999",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-50",
+      "value": "#808080",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-65",
+      "value": "#595959",
+      "comment": ""
+    },
+    {
+      "name": "$color-gray-73",
+      "value": "#444444",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-gray-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

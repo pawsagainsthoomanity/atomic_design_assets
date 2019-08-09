@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+/***** Material icon for check mark *****/
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+
+
+.ads-c-toggle__switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 27px;
+}
+
+.ads-c-toggle__switch input{
+  display: none;
+}
+
+.ads-c-toggle__slidecontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 135px;
+  height: 24px;
+  margin: 24px;
+}
+
+.ads-c-toggle__togglegrid{
+  position:relative;
+  top:6px;
+  width: 100px;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-right:8px;
+  color: #444444;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */  
+}
+
+.ads-c-toggle__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #595959;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.ads-c-toggle__slider:before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+.ads-c-toggle__slidericon {
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  color: white;
+  font-size: 4px;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;    
+  -ms-user-select: none;     
+  user-select: none;           
+}
+
+.ads-c-toggle__slidericon i{
+  font-size:18px;
+  color:white;
+   user-select:none !important;
+}
+
+input:checked + .ads-c-toggle__slider {
+  background-color: #55c200;
+}
+
+input:focus + .ads-c-toggle__slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .ads-c-toggle__slider:before {
+  -webkit-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(21px);
+}
+
+/* Rounded sliders */
+.ads-c-toggle__slider.ads-c-toggle--round {
+  border-radius: 14px;
+}
+
+.ads-c-toggle__slider.ads-c-toggle--round:before {
+  border-radius: 50%;
+}
+
+/* Mouse-over effects */
+.ads-c-toggle__slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.ads-c-toggle__slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.ads-c-toggle__slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}

@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    #SOLID NAV
+\*------------------------------------*/
+
+/**
+ * 1) Highlighted navigation in the navbar
+ */
+
+.ads-c-solid-nav {
+    margin: 0 2rem;
+    background: $color-white;
+    border-radius: 8px;
+
+    @media all and (min-width: $bp-large) {
+        margin: 0 0 1rem 0;
+    }
+}
+
+.ads-c-solid-nav__list {
+    display: block;
+}
+
+.ads-c-solid-nav__item {
+    position: relative;
+    border-bottom: 1px solid $color-gray-29;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.ads-c-solid-nav__link {
+    display: flex;
+    align-items: center;
+    color: $color-brand-blue-dull;
+    padding: 0.7rem 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: $font-size-sm-2;
+
+    &:hover, &:focus {
+        color: $color-brand-blue-dark;
+    }
+}
+
+.ads-c-solid-nav__icon.ads-c-icon {
+    display: block;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5rem;
+    fill: $color-brand-blue-dull;
+    transition: fill $anim-fade-quick $anim-ease;
+
+    .ads-c-solid-nav__link:hover &, .ads-c-solid-nav__link:focus & {
+        fill: $color-brand-blue-dark;
+    }
+}

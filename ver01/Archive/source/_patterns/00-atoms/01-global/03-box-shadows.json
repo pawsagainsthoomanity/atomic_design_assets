@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "name": "$box-shadow-black-08",
+      "value": "0px 2px 2px rgba(0, 0, 0, 0.08)",
+      "comment": ""
+    },
+    {
+      "name": "$box-shadow-black-20",
+      "value": "0 2px 4px rgba(0, 0, 0, 0.2)",
+      "comment": ""
+    },
+    {
+      "name": "$box-shadow-black-large-16",
+      "value": "0px 16px 24px rgba(0, 0, 0, 0.16)",
+      "comment": ""
+    },
+    {
+      "name": "$box-shadow-blue-40",
+      "value": "0 2px 4px rgba(41, 125, 253, 0.4)",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$box-shadow-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

@@ -1,0 +1,109 @@
+/*------------------------------------*\
+    #PROGRESS
+\*------------------------------------*/
+
+/**
+ * 1) Feedback consists of components that give information back to the user. Examples include progress bars, progress wheels, etc.
+ */
+
+.ads-c-progress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+    .ads-c-table__cell & {
+        margin-bottom: 0;
+    }
+
+    .ads-c-card & {
+        margin-top: 0.5rem;
+    }
+
+}
+
+.ads-c-progress__text {
+    width: 7rem;
+}
+
+ /**
+ * Progress bar
+ */
+ .ads-c-progress__bar {
+	-webkit-appearance: none;
+    appearance: none;
+    border: 1px solid $color-gray-05;
+    background: $color-gray-40;
+    width: 100%;
+    max-width: 300px;
+    height: 0.5rem;
+    border-radius: $border-radius;
+    margin-right: 1rem;
+
+    .ads-c-progress--large & {
+        height: 1.5rem;
+    }
+
+    .ads-c-progress--negative & {
+        background-color: $color-utility-negative;
+    }
+
+    .ads-c-progress--warning & {
+        background-color: $color-utility-warning;
+    }
+
+    .ads-c-progress--positive & {
+        background-color: $color-utility-positive;
+    }
+
+    .ads-c-table & {
+        flex: 1;
+    }
+ }
+
+.ads-c-progress__bar::-moz-progress-bar {
+	background-color: $color-gray-40;
+	border-radius: $border-radius;
+
+    .ads-c-progress--large & {
+        height: 1.5rem;
+    }
+
+    .ads-c-progress--negative & {
+        background-color: $color-utility-negative;
+    }
+
+    .ads-c-progress--warning & {
+        background-color: $color-utility-warning;
+    }
+
+    .ads-c-progress--positive & {
+        background-color: $color-utility-positive;
+    }
+}
+
+.ads-c-progress__bar::-webkit-progress-value {
+	background-color: $color-gray-40;
+	border-radius: $border-radius;
+
+    .ads-c-progress--large & {
+        height: 1.5rem;
+    }
+
+    .ads-c-progress--negative & {
+        background-color: $color-utility-negative;
+    }
+
+    .ads-c-progress--warning & {
+        background-color: $color-utility-warning;
+    }
+
+    .ads-c-progress--positive & {
+        background-color: $color-utility-positive;
+    }
+}
+
+
+progress[value]::-webkit-progress-bar {
+    border-radius: $border-radius;
+    background-color: $color-gray-02;
+}

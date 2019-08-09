@@ -1,0 +1,24 @@
+{{# table }}
+<table class="mdl-data-table mdl-js-data-table {{ tableClass }}">
+  {{# thead }}
+  <thead>
+    <tr>
+	  {{# th }}
+      <th {{# nonnumericClass }}class="mdl-data-table__cell--non-numeric"{{/ nonnumericClass }}>{{ title }}</th>
+      {{/ th }}
+    </tr>
+  </thead>
+  {{/ thead }}
+  {{# tbody }}
+  <tbody>
+	{{# tr }}
+    <tr>
+	  {{# td }}
+      <td {{# nonnumericClass }}class="mdl-data-table__cell--non-numeric" {{/ nonnumericClass }}>{{ text }}</td>
+	  {{/ td }}
+    </tr>
+	{{/ tr }}
+  </tbody>
+  {{/ tbody }}
+</table>
+{{/ table }}

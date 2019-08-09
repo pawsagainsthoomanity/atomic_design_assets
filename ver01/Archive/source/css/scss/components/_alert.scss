@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    #ALERT
+\*------------------------------------*/
+
+/**
+ * 1) A banner that contains messaging (info, warning, error, success) to the user.
+ * 2) Can be dismissable or persistent
+ */
+.ads-c-alert {
+	padding: 1rem 0;
+	overflow: hidden;
+    background: $color-brand-blue-dull;
+    color: $color-white;
+}
+
+/**
+ * Error alert
+ */
+.ads-c-alert--negative {
+	background: $color-utility-negative;
+}
+
+/**
+ * Success alert
+ */
+.ads-c-alert--positive {
+	background: $color-utility-positive;
+}
+
+/**
+ * Warning alert
+ */
+.ads-c-alert--warning {
+	background: $color-utility-warning;
+}
+
+/**
+ * Alert inner
+ * 1) Inner contents of alert, which is coupled with ads-l-container
+ *    to cap the width of the inner content of the alert
+ * 2) Display flex to place icon, text, and buttons side by side
+ * 3) Evenly distribute flex children spacing
+ */
+.ads-c-alert__inner {
+	display: flex; /* 2 */
+	justify-content: space-between; /* 3 */
+}
+
+/**
+ * Alert icon
+ * 1) Left-aligned SVG icon that appears to the left of the alert message
+ */
+.ads-c-alert__icon {
+	height: 16px;
+	width: 16px;
+	margin-right: 1rem;
+    fill: $color-white;
+}
+
+/**
+ * Alert text
+ * 1) Span the width of the alert__inner container
+ * 2) This is coupled with c-text-passage, but we want
+ *    the the lineheight to be a bit more condensed
+ */
+.ads-c-alert__text {
+	flex: 1; /* 1 */
+	line-height: 1.3; /* 2 */
+	display: flex;
+	align-items: center; /* 3 */
+}
+
+/**
+ * Alert actions
+ * 1) Container of the alert buttons. Used to keep the button from expanding to
+ *    height of the alert block
+ */
+.ads-c-alert__actions {
+	margin-left: 2rem;
+}

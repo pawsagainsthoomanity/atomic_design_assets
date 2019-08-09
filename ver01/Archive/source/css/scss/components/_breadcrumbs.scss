@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    #BREADCRUMBS
+\*------------------------------------*/
+
+/**
+ * Breadcrumbs provide wayfinding back to parent categories
+ */
+.ads-c-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    color: $color-gray-40;
+}
+
+.ads-c-breadcrumbs__item {
+    &:last-child {
+        font-weight: bold;
+
+        &:after {
+            content: none;
+        }
+    }
+
+    &:after {
+        content: ">";
+        margin: 0 0.5rem 0 0.25rem;
+    }
+}
+
+.ads-c-breadcrumbs__link {
+    display: inline-block;
+
+    &:hover, &:focus {
+        color: $color-brand-blue;
+    }
+
+    .ads-c-breadcrumbs__item:last-child & {
+        pointer-events: none;
+    }
+}
+
+.ads-c-breadcrumbs__icon.ads-c-icon {
+    fill: $color-gray-73;
+    height: 16px;
+    width: 16px;
+}
+
+
+.ads-c-breadcrumbs__icon + .ads-c-breadcrumbs__link {
+    margin-left: 0.5rem;
+}

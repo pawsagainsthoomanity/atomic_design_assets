@@ -1,0 +1,370 @@
+{
+  "config": {
+    "title": "Msa Atomic Design",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "About",
+        "route": "/",
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "link": "",
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello",
+            "depth": 1,
+            "value": "Hello!"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/banner.mdx",
+      "value": {
+        "name": "Banners",
+        "menu": "Atoms",
+        "id": "aad8f6606db9d4720ac0b3f3cb1a6b19",
+        "filepath": "src/Atoms/banner.mdx",
+        "link": "",
+        "slug": "src-atoms-banner",
+        "route": "/src-atoms-banner",
+        "headings": [
+          {
+            "slug": "banners",
+            "depth": 1,
+            "value": "Banners"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/breadscrumb.mdx",
+      "value": {
+        "name": "Breadscrumbs",
+        "menu": "Atoms",
+        "id": "5389db8270efdb69721b2b7d8f9f9180",
+        "filepath": "src/Atoms/breadscrumb.mdx",
+        "link": "",
+        "slug": "src-atoms-breadscrumb",
+        "route": "/src-atoms-breadscrumb",
+        "headings": [
+          {
+            "slug": "breadscrumbs",
+            "depth": 1,
+            "value": "Breadscrumbs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Atoms",
+        "id": "76b1cb7d05d5fa592e2ffd7d3364b3ab",
+        "filepath": "src/Atoms/button.mdx",
+        "link": "",
+        "slug": "src-atoms-button",
+        "route": "/src-atoms-button",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "basics",
+            "depth": 2,
+            "value": "Basics"
+          },
+          {
+            "slug": "variants",
+            "depth": 2,
+            "value": "Variants"
+          },
+          {
+            "slug": "dropdown-buttons",
+            "depth": 3,
+            "value": "Dropdown Buttons"
+          },
+          {
+            "slug": "icon-buttons",
+            "depth": 3,
+            "value": "Icon Buttons"
+          },
+          {
+            "slug": "states",
+            "depth": 2,
+            "value": "States"
+          },
+          {
+            "slug": "sizes",
+            "depth": 2,
+            "value": "Sizes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/checkbox.mdx",
+      "value": {
+        "name": "Checkboxes",
+        "menu": "Atoms",
+        "id": "82c78506c5d531160e9753ae9838ed75",
+        "filepath": "src/Atoms/checkbox.mdx",
+        "link": "",
+        "slug": "src-atoms-checkbox",
+        "route": "/src-atoms-checkbox",
+        "headings": [
+          {
+            "slug": "checkbox",
+            "depth": 1,
+            "value": "Checkbox"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/color.mdx",
+      "value": {
+        "name": "Color",
+        "menu": "Atoms",
+        "id": "6417354937287300bfd37c346f818501",
+        "filepath": "src/Atoms/color.mdx",
+        "link": "",
+        "slug": "src-atoms-color",
+        "route": "/src-atoms-color",
+        "headings": [
+          {
+            "slug": "color",
+            "depth": 1,
+            "value": "Color"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/complexity.mdx",
+      "value": {
+        "name": "Complexity",
+        "menu": "Atoms",
+        "id": "e8d1e4240920d20da26746b62db0e40a",
+        "filepath": "src/Atoms/complexity.mdx",
+        "link": "",
+        "slug": "src-atoms-complexity",
+        "route": "/src-atoms-complexity",
+        "headings": [
+          {
+            "slug": "complexity",
+            "depth": 1,
+            "value": "Complexity"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/input_field.mdx",
+      "value": {
+        "name": "Input Field",
+        "menu": "Atoms",
+        "id": "90c0705070404936fa4bfee309832578",
+        "filepath": "src/Atoms/input_field.mdx",
+        "link": "",
+        "slug": "src-atoms-input-field",
+        "route": "/src-atoms-input-field",
+        "headings": [
+          {
+            "slug": "input-field",
+            "depth": 1,
+            "value": "Input Field"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/pagnation.mdx",
+      "value": {
+        "name": "Pagnation",
+        "menu": "Atoms",
+        "id": "09932ebb1f832de57657ab41664946fe",
+        "filepath": "src/Atoms/pagnation.mdx",
+        "link": "",
+        "slug": "src-atoms-pagnation",
+        "route": "/src-atoms-pagnation",
+        "headings": [
+          {
+            "slug": "pagnation",
+            "depth": 1,
+            "value": "Pagnation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/progress_bar.mdx",
+      "value": {
+        "name": "Progress Bar",
+        "menu": "Atoms",
+        "id": "c490451b11d0a76d86a33ae528826c0d",
+        "filepath": "src/Atoms/progress_bar.mdx",
+        "link": "",
+        "slug": "src-atoms-progress-bar",
+        "route": "/src-atoms-progress-bar",
+        "headings": [
+          {
+            "slug": "progress-bar",
+            "depth": 1,
+            "value": "Progress Bar"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/radio_button.mdx",
+      "value": {
+        "name": "Radio Buttons",
+        "menu": "Atoms",
+        "id": "c3a511c80462b47f40d79a84aa4baa4c",
+        "filepath": "src/Atoms/radio_button.mdx",
+        "link": "",
+        "slug": "src-atoms-radio-button",
+        "route": "/src-atoms-radio-button",
+        "headings": [
+          {
+            "slug": "radio-buttons",
+            "depth": 1,
+            "value": "Radio Buttons"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/stepper.mdx",
+      "value": {
+        "name": "Steppers",
+        "menu": "Atoms",
+        "id": "7951524ed09e48a72c1c07b0ba93f0d9",
+        "filepath": "src/Atoms/stepper.mdx",
+        "link": "",
+        "slug": "src-atoms-stepper",
+        "route": "/src-atoms-stepper",
+        "headings": [
+          {
+            "slug": "steppers",
+            "depth": 1,
+            "value": "Steppers"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/tab.mdx",
+      "value": {
+        "name": "Tabs",
+        "menu": "Atoms",
+        "id": "ef245923444a585e0f26a999090afd22",
+        "filepath": "src/Atoms/tab.mdx",
+        "link": "",
+        "slug": "src-atoms-tab",
+        "route": "/src-atoms-tab",
+        "headings": [
+          {
+            "slug": "tabs",
+            "depth": 1,
+            "value": "Tabs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/text_area.mdx",
+      "value": {
+        "name": "Text Area",
+        "menu": "Atoms",
+        "id": "896e8592dbcce1207291ea0b61c76683",
+        "filepath": "src/Atoms/text_area.mdx",
+        "link": "",
+        "slug": "src-atoms-text-area",
+        "route": "/src-atoms-text-area",
+        "headings": [
+          {
+            "slug": "text-area",
+            "depth": 1,
+            "value": "Text Area"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/toggle_switch.mdx",
+      "value": {
+        "name": "Toggle Switch",
+        "menu": "Atoms",
+        "id": "2a7a90607878e24f7287b3d7bc150ae4",
+        "filepath": "src/Atoms/toggle_switch.mdx",
+        "link": "",
+        "slug": "src-atoms-toggle-switch",
+        "route": "/src-atoms-toggle-switch",
+        "headings": [
+          {
+            "slug": "toggle-switch",
+            "depth": 1,
+            "value": "Toggle Switch"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Atoms/typography.mdx",
+      "value": {
+        "name": "Typography",
+        "menu": "Atoms",
+        "id": "17e960b5bbfb104396c89e16c24ab390",
+        "filepath": "src/Atoms/typography.mdx",
+        "link": "",
+        "slug": "src-atoms-typography",
+        "route": "/src-atoms-typography",
+        "headings": [
+          {
+            "slug": "typography",
+            "depth": 1,
+            "value": "Typography"
+          },
+          {
+            "slug": "headings",
+            "depth": 2,
+            "value": "Headings"
+          },
+          {
+            "slug": "body",
+            "depth": 2,
+            "value": "Body"
+          },
+          {
+            "slug": "paragraph",
+            "depth": 2,
+            "value": "Paragraph"
+          },
+          {
+            "slug": "other",
+            "depth": 2,
+            "value": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}

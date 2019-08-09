@@ -1,0 +1,45 @@
+{{> organisms-navbar }}
+
+<main role="main">
+
+    <div class="ads-l-container">
+
+        <div class="ads-l-page-layout ads-l-page-layout--three-column">
+            <div class="ads-l-page-layout__secondary">
+                {{> organisms-accordion }}
+            </div>
+            <!--end ads-l-page-layout__secondary-->
+
+            <div class="ads-l-page-layout__tertiary">
+                <h3>Versions</h3>
+                {{# selectField }}
+                {{> atoms-select }}
+                {{/ selectField }}
+
+                <div class="ads-c-box">
+                    Toggle
+                    {{> molecules-definition-list }}
+                    {{> molecules-pagination-stepper}}
+                </div>
+                <!--end ads-c-box-->
+
+                {{> molecules-card }}
+            </div>
+            <!--end ads-l-page-layout__tertiary-->
+
+            <div class="ads-l-page-layout__main">
+                <div class="fpo">Document Viewer</div>
+            </div>
+            <!--end ads-l-page-layout__main-->
+        </div>
+        <!--end ads-l-page-layout"-->
+
+
+
+
+    </div>
+    <!--end ads-l-container"-->
+
+</main>
+
+{{> organisms-footer }}

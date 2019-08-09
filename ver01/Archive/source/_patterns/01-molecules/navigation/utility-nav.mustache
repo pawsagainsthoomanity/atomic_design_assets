@@ -1,0 +1,32 @@
+{{# utilityNav }}
+<ul class="ads-c-utility-nav">
+    {{# items }}
+    <li class="ads-c-utility-nav__item">
+        <a class="ads-c-utility-nav__link {{# navChild }}ads-js-nav-dropdown-trigger{{/ navChild }}" href="{{ url }}" title="{{ title }}">
+            <span class="ads-c-utility-nav__text">{{ label }}</span>
+            {{# icon }}
+            {{> atoms-icon }}
+            {{/ icon }}
+        </a>
+        <!--end ads-c-utility-nav__link-->
+
+        {{# navChild }}
+        <ul class="ads-c-utility-nav__sublist ads-js-nav-dropdown">
+
+            {{# navChildList }}
+            <li class="ads-c-utility-nav__subitem">
+
+                <a href="{{ url}}" class="ads-c-utility-nav__sublink">{{ label }}</a>
+
+            </li><!-- end ads-c-nav__sublist__item -->
+            {{/ navChildList }}
+
+        </ul><!-- end ads-c-nav__sublist -->
+        {{/ navChild }}
+
+    </li>
+    <!--end ads-c-utility-nav__item-->
+    {{/ items }}
+</ul>
+<!--end ads-c-utility-nav-->
+{{/ utilityNav }}

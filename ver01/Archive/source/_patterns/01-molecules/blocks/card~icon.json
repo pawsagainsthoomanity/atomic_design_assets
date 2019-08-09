@@ -1,0 +1,22 @@
+{
+    "bodyClass": "ads-u-margin-top-quad",
+    "styleModifier": "ads-c-card--icon",
+    "cardHeader": {
+        "cardImage": {
+            "image": "../../images/icon-gitlab.svg"
+        }
+    },
+    "cardBody": {
+        "title": "Dev Library",
+        "description": "Apollo's React-based developer library provides a complete web framework with ready-to-use components."
+    },
+    "cardFooter": {
+        "styleModifier": "ads-c-btn-group--center",
+        "buttonGroup": [
+            {
+                "styleModifier": "ads-c-btn--text",
+                "buttonText": "Get It from Gitlab"
+            }
+        ]
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "navBarStyleModifier": "ads-c-navbar--align-left",
+    "primaryNav": {
+        "navItems": [
+            {
+                "label": "Review",
+                "url": "#"
+            },
+            {
+                "label": "Data source admin",
+                "url": "#"
+            }
+        ]
+    },
+    "utilityNav": {
+        "items": [
+            {
+                "url": "#",
+                "label": "olver.queen@iqvia.com",
+                "icon" : {
+                    "styleModifier": "ads-c-utility-nav__icon",
+                    "icon": "chevron-down"
+                },
+                "navChild" : {
+                    "navChildList": [
+                        {
+                            "label": "Menu Item 1",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 2",
+                            "url": "#"
+                        },
+                        {
+                            "label": "Menu Item 3",
+                            "url": "#"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "breadcrumbs": [
+        {
+            "label": "Review",
+            "breadcrumbsIcon": "chevron-right"
+        },
+        {
+            "label": "System detected"
+        }
+    ],
+    "page": {
+        "kicker": "Instagram",
+        "title":"Gildim Conference Post - 19213",
+        "description": false
+    },
+    "toolbar": {
+        "styleModifier": "ads-c-toolbar--lined-bottom",
+        "toolbarButtonGroupLeft": {
+            "buttonGroup" : [
+                {
+                    "title": "Add row",
+                    "buttonText": "Change RSI"
+                }
+            ]
+        },
+        "toolbarSearch": false,
+        "toolbarDropdown" : false,
+        "toolbarButtonGroup": {
+            "buttonGroup" : [
+                {
+                    "title": "Add row",
+                    "buttonText": "Review"
+                }
+            ]
+        }
+    },
+    "sectionList": [
+        {
+            "sectionHeader": {
+                "heading": "Data",
+                "description": false
+            },
+            "definitionList": {
+                "items": [
+                    {
+                        "term": "Field name:",
+                        "description": "Content"
+                    },
+                    {
+                        "term": "Type:",
+                        "description": "Hashtag Search"
+                    },
+                    {
+                        "term": "ID:",
+                        "description": "0980893240890123"
+                    },
+                    {
+                        "term": "Post type:",
+                        "description": "Image"
+                    },
+                    {
+                        "term": "Created:",
+                        "description": "Tuesday July 12, 2016 - 12:56 PM"
+                    },
+                    {
+                        "term": "Link:",
+                        "description": "<a href='http://www.fx361.com/page/2018/10115/2689810.shtml'>http://www.fx361.com/page/2018/10115/2689810.shtml</a>"
+                    },
+                    {
+                        "term": "Image:",
+                        "description": "<a href='http://www.fx361.com/page/2018/10115/2689810.jpg'>http://www.fx361.com/page/2018/10115/2689810.jpg</a>"
+                    }
+                ]
+            }
+        },
+        {
+            "sectionHeader": {
+                "heading": "User",
+                "description": false
+            },
+            "definitionList": {
+                "items": [
+                    {
+                        "term": "Username:",
+                        "description": "GildimUser"
+                    },
+                    {
+                        "term": "Type:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "Profile icon:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "Full name:",
+                        "description": "--"
+                    }
+                ]
+            }
+        },
+        {
+            "sectionHeader": {
+                "heading": "Caption",
+                "description": false
+            },
+            "definitionList": {
+                "items": [
+                    {
+                        "term": "Created:",
+                        "description": "Tuesday July 12, 2016 - 12:56 PM"
+                    },
+                    {
+                        "term": "ID:",
+                        "description": "0980893240890123"
+                    },
+                    {
+                        "term": "Text:",
+                        "description": "<em>I just found out that FDA approved the new #FakeGlidim indication</em>"
+                    }
+                ]
+            }
+        },
+        {
+            "sectionHeader": {
+                "heading": "Comment",
+                "description": false
+            },
+            "definitionList": {
+                "items": [
+                    {
+                        "term": "Created:",
+                        "description": "GlidimUser"
+                    },
+                    {
+                        "term": "Text:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "ID:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "Username:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "Profile icon:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "From ID:",
+                        "description": "--"
+                    },
+                    {
+                        "term": "Full name:",
+                        "description": "--"
+                    }
+                ]
+            }
+        },
+        {
+            "sectionHeader": {
+                "heading": "Other",
+                "description": false
+            },
+            "definitionList": {
+                "items": [
+                    {
+                        "term": "AE rank:",
+                        "description": "0"
+                    },
+                    {
+                        "term": "Config ID:",
+                        "description": "56744"
+                    },
+                    {
+                        "term": "Staging",
+                        "description": "--"
+                    }
+                ]
+            }
+        },
+        {
+            "sectionHeader": {
+                "heading": "Tags",
+                "description": false
+            },
+            "definitionList": false,
+            "tagsSection": {
+                "tags" : [
+                    {
+                        "label" : "Adverse event",
+                        "tagsIconAfter": "chevron-down"
+                    },
+                    {
+                        "label" : "Secondary language",
+                        "tagsIconAfter": "chevron-down"
+                    },
+                    {
+                        "label" : "Unexpected therapeutic effect"
+                    }
+                ]
+            }
+        }
+    ],
+    "callToAction": {
+        "styleModifier": "ads-c-btn--block",
+        "buttonIcon": "chevron-down",
+        "buttonText": "Show audit trail"
+    },
+    "formSectionHeader": {
+        "heading": "Add comment",
+        "description": false
+    },
+    "commentForm": {
+        "commentTextInput": {
+            "label": "Subject (optional)",
+            "placeholder": "",
+            "fieldNote": false
+        },
+        "commentTextArea": {
+            "label": "Comment",
+            "placeholder": "",
+            "fieldNote": false
+        },
+        "formButtons": {
+            "buttonGroup": [
+                {
+                    "buttonText": "Submit"
+                }
+            ]
+        }
+    },
+    "commentSectionHeader": {
+        "heading": "Comments (3)",
+        "description": false
+    },
+    "commentList": {
+        "blockItems": [
+            {
+                "styleModifier": "ads-c-stacked-block--lined-bottom",
+                "blockHeader" : {
+                    "title": "Glidim is working"
+            	},
+            	"blockBody": {
+            		"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            	},
+                "blockFooter" : {
+            		"htmlText" : "oliver.queen@iqvia.com @1:45 PM"
+            	}
+            },
+            {
+                "styleModifier": "ads-c-stacked-block--lined-bottom",
+                "blockHeader" : {
+                    "title": "Adding Glidim to Twitter feeds"
+            	},
+            	"blockBody": {
+            		"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            	},
+                "blockFooter" : {
+            		"htmlText" : "oliver.queen@iqvia.com @1:45 PM"
+            	}
+            },
+            {
+                "styleModifier": "ads-c-stacked-block--lined-bottom",
+                "blockHeader" : {
+                    "title": "Glidim on Instagram"
+            	},
+            	"blockBody": {
+            		"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            	},
+            	"blockFooter" : {
+            		"htmlText" : "oliver.queen@iqvia.com @1:45 PM"
+            	}
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">{{ heading }}</h2>
+</div>
+<div class="mdl-card__supporting-text">
+	{{ text }}
+</div>
+<div class="mdl-card__actions {{ cardActionsClass }}">
+	{{> atoms-button }}
+</div>
+{{# shareButton}}
+<div class="mdl-card__menu">
+	{{> atoms-button }}
+</div>
+{{/ shareButton}}

@@ -1,0 +1,52 @@
+<div class="ads-c-toolbar {{ styleModifier }}">
+
+    <div class="ads-c-toolbar__left">
+
+        {{# toolbarSectionHeader }}
+        <div class="ads-c-toolbar__item">
+            {{> molecules-section-header }}
+        </div>
+        {{/ toolbarSectionHeader }}
+
+        {{# toolbarInlineSelect }}
+        {{> molecules-inline-select }}
+        {{/ toolbarInlineSelect }}
+
+        {{# toolbarButtonGroupLeft }}
+        <div class="ads-c-toolbar__item">
+            {{> organisms-button-group }}
+        </div>
+        {{/ toolbarButtonGroupLeft }}
+
+    </div>
+
+    <div class="ads-c-toolbar__right">
+
+        {{# toolbarSearch }}
+        <div class="ads-c-toolbar__item">
+            {{> molecules-search-form }}
+        </div>
+        {{/ toolbarSearch }}
+
+        {{# toolbarDropdown }}
+        <div class="ads-c-toolbar__item">
+            {{> molecules-dropdown-menu }}
+        </div>
+        {{/ toolbarDropdown }}
+
+        {{# toolbarButtonGroup }}
+        <div class="ads-c-toolbar__item">
+            {{> organisms-button-group }}
+        </div>
+        {{/ toolbarButtonGroup }}
+
+        {{# toolbarPagination }}
+        <div class="ads-c-toolbar__item">
+            {{> molecules-pagination }}
+        </div>
+        {{/ toolbarPagination }}
+
+    </div>
+
+</div>
+<!-- End ads-c-collapsible-toolbar -->

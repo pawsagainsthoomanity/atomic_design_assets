@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #STACKED BLOCK
+\*------------------------------------*/
+
+/**
+ * 1) A stacked block of text and optional image consisting of a header, body, and footer
+ */
+.ads-c-stacked-block--lined-bottom {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $color-gray-15;
+
+    .ads-c-stacked-block-list__item:last-child & {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+}
+.ads-c-stacked-block__title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ads-c-stacked-block__footer {
+    color: $color-gray-29;
+}

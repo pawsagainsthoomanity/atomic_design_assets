@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    #CARD
+\*------------------------------------*/
+
+/**
+ * HIG SITE CARD STYLES
+ */
+.ads-c-card {
+    position: relative;
+    display: block;
+    background: $color-white;
+    border: 1px solid $color-gray-05;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    padding: 1rem 2rem;
+    flex: 1;
+    transition: box-shadow $anim-fade-quick $anim-ease;
+}
+
+.ads-c-card--dropshadow {
+    &:hover, &:focus {
+        box-shadow: $box-shadow-black-large-16;
+    }
+}
+
+.ads-c-card--picture {
+    padding: 0;
+}
+
+.ads-c-card--icon {
+    text-align: center;
+}
+
+.ads-c-card__header {
+    .ads-c-card--icon & {
+        margin-bottom: 2rem;
+    }
+}
+
+.ads-c-card__img {
+    width: 100%;
+
+    .ads-c-card--icon & {
+        position: absolute;
+        top: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 4rem;
+    }
+}
+
+.ads-c-card__body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+
+    .ads-c-card--picture & {
+        padding: 0.5rem 2rem;
+    }
+}
+
+.ads-c-card__title {
+    font-size: $font-size-med-2;
+    font-weight: $font-primary-weight-bold;
+
+    .ads-c-card__link:hover &, .ads-c-card__link:focus & {
+        color: $color-brand-blue;
+    }
+}
+
+.ads-c-card__desc {
+    margin-bottom: 0;
+}
+
+.ads-c-card__footer {
+
+    .ads-c-card--picture & {
+        padding: 0.5rem 2rem;
+    }
+}

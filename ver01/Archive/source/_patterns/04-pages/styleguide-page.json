@@ -1,0 +1,263 @@
+{
+    "verticalNavbar": {
+        "navBarStyleModifier": "ads-c-navbar--vertical",
+        "solidNav": {
+            "solidNavItems": [
+                {
+                    "solidNavIcon": "resources-three",
+                    "label": "Resources"
+                },
+                {
+                    "solidNavIcon": "contact-three",
+                    "label": "Contact"
+                }
+            ]
+        },
+        "primaryNav": false,
+        "treeNav": {
+            "navItems": [
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Getting Started",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Guidelines",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Code conventions"
+    						},
+    						{
+    							"label": "Writing Guidelines"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Styles",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Color Palette"
+    						},
+    						{
+    							"label": "Typography"
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Components",
+    				"url": "#",
+    				"navIcon": "chevron-right",
+    				"navChild": {
+    					"navChildList": [
+    						{
+    							"label": "Blocks and cards",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Buttons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Charts and graphs",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Form controls",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Headers and footers",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Imagery",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Icons",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Interactive panels",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Lists and collections",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Media",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Messaging",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Navigation",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Tables",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						},
+    						{
+    							"label": "Text",
+    							"subnavIcon": "chevron-right",
+    							"subnavChild": {
+    								"subnavChildList": [
+    									{
+    										"label": "Overview"
+    									}
+    								]
+    							}
+    						}
+    					]
+    				}
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Utilities",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Patterns & Flows",
+    				"url": "#"
+    			},
+    			{
+    				"linkTag": true,
+    				"buttonTag": false,
+    				"label": "Contribute",
+    				"url": "#"
+    			}
+    		]
+        },
+        "utilityNav": false
+    },
+    "page": {
+        "kicker": "Page header kicker",
+        "title": "Page header title",
+        "description": "Page header description"
+    },
+    "footerStyleModifier": "ads-c-footer--center",
+    "footerNav": [
+        {
+            "label": "Release History",
+            "url": "#"
+        },
+        {
+            "label": "Contribute",
+            "url": "#"
+        }
+    ],
+    "footerMeta": "Apollo Design System v0.6 | Made with Moon Dust by the Apollo Team. © 2018 IQVIA."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "prebuilt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pattern-lab/cli": "^0.0.3",
+    "@pattern-lab/core": "^3.0.1",
+    "@pattern-lab/engine-mustache": "^2.0.1-alpha.0",
+    "@pattern-lab/uikit-workshop": "^1.0.1",
+    "gulp": "3.9.1",
+    "minimist": "1.2.0",
+    "starterkit-mustache-materialdesign": "github:pattern-lab/starterkit-mustache-materialdesign"
+  }
+}

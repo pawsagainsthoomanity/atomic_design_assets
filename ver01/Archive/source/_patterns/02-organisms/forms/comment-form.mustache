@@ -1,0 +1,19 @@
+<form method="{{ method }}" action="{{ url }}" class="ads-c-form {{ styleModifier }} ads-js-form">
+
+	<div class="ads-c-form__body">
+
+		{{# commentTextInput }} {{> molecules-text-field }} {{/ commentTextInput }}
+		{{# commentTextArea }} {{> molecules-textarea-field }} <!--country-->{{/ commentTextArea }}
+
+	</div>
+	<!--end c-form__body-->
+
+	<div class="ads-c-form__footer">
+
+		{{# formButtons }} {{> organisms-button-group }} {{/ formButtons }}
+
+	</div>
+	<!--end c-form__footer-->
+
+</form>
+<!--end c-form-->

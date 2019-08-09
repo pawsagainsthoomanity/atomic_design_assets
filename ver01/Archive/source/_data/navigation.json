@@ -1,0 +1,114 @@
+{
+    "navToggle": {
+        "styleModifier": "ads-c-navbar__btn ads-js-nav-trigger",
+        "buttonText": "Menu"
+    },
+    "breadcrumbs": [
+		{
+			"label": "Parent",
+			"breadcrumbsIcon": "chevron-right"
+		},
+		{
+			"label": "Child",
+			"breadcrumbsIcon": "chevron-right"
+		},
+		{
+			"label": "Grandchild"
+		}
+	],
+    "navItems": [
+        {
+            "label": "Nav Item",
+            "url": "#"
+        },
+        {
+            "label": "Nav Item",
+            "url": "#"
+        },
+        {
+            "label": "Nav Item",
+            "url": "#"
+        }
+    ],
+    "solidNavItems": [
+        {
+            "solidNavIcon": "resources-three",
+            "label": "Resources"
+        },
+        {
+            "solidNavIcon": "contact-three",
+            "label": "Contact"
+        }
+    ],
+    "utilityNav": {
+        "items": [
+            {
+                "url": "#",
+                "title": "Title",
+                "icon": {
+                    "styleModifier": "ads-c-utility-nav__icon",
+                    "icon": "search"
+                }
+            },
+            {
+                "url": "#",
+                "title": "Title",
+                "icon": {
+                    "styleModifier": "ads-c-utility-nav__icon",
+                    "icon": "search"
+                }
+            },
+            {
+                "url": "#",
+                "title": "Title",
+                "icon": {
+                    "styleModifier": "ads-c-utility-nav__icon",
+                    "icon": "search"
+                }
+            }
+        ]
+    },
+    "pagination" : [
+	    {
+            "styleModifier" : "ads-is-disabled",
+            "paginationIcon" : "chevron-left",
+		    "label" : false
+	    },
+	    {
+		    "label" : "1",
+		    "styleModifier" : "ads-is-current"
+	    },
+	    {
+		    "label" : "2"
+	    },
+		{
+		    "label" : "3"
+	    },
+	    {
+		    "label" : "4"
+	    },
+        {
+            "paginationIcon" : "chevron-right",
+		    "label" : false
+	    }
+    ],
+    "footerNav": [
+        {
+            "label": "Footer Nav",
+            "url": "#"
+        },
+        {
+            "label": "Footer Nav",
+            "url": "#"
+        },
+        {
+            "label": "Footer Nav",
+            "url": "#"
+        },
+        {
+            "label": "Footer Nav",
+            "url": "#"
+        }
+    ],
+    "stepper": true
+}

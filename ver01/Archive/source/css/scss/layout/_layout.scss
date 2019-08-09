@@ -1,0 +1,251 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+/**
+ * Layout Container
+ * 1) Caps the width of the content to the maximum width
+ *    and centers the container
+ */
+.ads-l-container {
+	padding: 0 2rem;
+	max-width: $l-max-width;
+	margin: 0 auto;
+}
+
+/**
+ *
+ * 1) This narrow layout container is for lists, forms,
+ *    and other singular objects that aren't dashboard-y
+ *    kinds of displays
+ */
+.ads-l-linelength-container {
+    max-width: $l-linelength-width;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #GRID
+\*------------------------------------*/
+
+/**
+ * Grid Container
+ */
+.ads-l-grid {
+	display: flex;
+	flex-wrap: wrap;
+
+	@supports (display: grid) {
+		display: grid;
+		grid-gap: 2rem;
+		margin: 0;
+	}
+}
+
+.ads-l-grid__item {
+	display: flex;
+}
+
+/**
+ * 2up Grid and 2up-expand-first grid
+ */
+.ads-l-grid--2up {
+	margin: 0 -0.5rem;
+
+	@supports (display: grid) {
+		grid-template-columns: 1fr;
+		margin: 0;
+
+		@media all and (min-width: $bp-med) {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+}
+
+.ads-l-grid--2up-wide {
+	grid-gap: 10rem;
+}
+
+/**
+ * 2up Grid and 2up-expand-first grid
+ */
+.ads-l-grid--3up {
+	margin: 0 -0.5rem;
+
+	@supports (display: grid) {
+		grid-template-columns: repeat(auto-fill, minmax(285px, 1fr) );
+		margin: 0;
+	}
+}
+
+/**
+ * 4up Grid and 2up-expand-first grid
+ */
+.ads-l-grid--4up {
+	margin: 0 -0.5rem;
+
+	@supports (display: grid) {
+		grid-template-columns: repeat(auto-fill, minmax(285px, 1fr) );
+		margin: 0;
+
+		@media all and (min-width: $bp-med) {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		@media all and (min-width: $bp-large) {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		@media all and (min-width: $bp-xl) {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+	}
+}
+
+/**
+ * Grid Item
+ */
+.ads-l-grid__item {
+	.ads-l-grid--2up & {
+		@media all and (min-width: $bp-med) {
+			width: 50%;
+		}
+
+		@supports (display: grid) {
+			width: 100%;
+		}
+	}
+
+	.ads-l-grid--3up & {
+		@media all and (min-width: $bp-med) {
+			width: 50%;
+		}
+
+		@media all and (min-width: $bp-large) {
+			width: 33.33%;
+		}
+
+		@supports (display: grid) {
+			width: 100%;
+		}
+	}
+
+	/**
+	 * 4up Grid and 2up-expand-first grid
+	 */
+	.ads-l-grid--4up {
+
+		@media all and (min-width: $bp-med) {
+			width: 50%;
+		}
+
+		@media all and (min-width: $bp-large) {
+			width: 33.33%;
+		}
+
+		@media all and (min-width: $bp-xl) {
+			width: 25%;
+		}
+
+
+		@supports (display: grid) {
+			width: 100%;
+		}
+	}
+}
+
+/**
+ * Page Layout
+ * 1) The container for a page layout
+ */
+.ads-l-page-layout {
+	position: relative;
+}
+
+/**
+ * Main section
+ * 1) The main section is the primary content container
+ */
+.ads-l-page-layout__main {
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	/**
+	 * Main section of 2 column fixed layout
+	 * 1) Margin left equals width of the fixed positioned sidebar
+	 */
+	.ads-l-page-layout--two-column-fixed > & {
+		height: 100vh;
+
+		@media all and (min-width: $bp-large) {
+			margin-left: 18rem; /* 1 */
+		}
+	}
+
+	/**
+	 * Main section of three-column layout
+	 * 1) TODO: this isn't final, just getting basic placement down
+	 */
+	.ads-l-page-layout--three-column > & {
+		@media all and (min-width: $bp-large) {
+			margin-left: 20rem;
+			margin-right: 15rem;
+			padding: 0 2rem;
+		}
+	}
+}
+
+/**
+ * Secondary section
+ * 1) The secondary section is an auxiliary container
+ *    Otherwise known as "sidebar", but we try to
+ *    avoid that term to be mindful of the fact in
+ *    responsive environments "sidebar"
+ */
+.ads-l-page-layout__secondary {
+	/**
+	 * Secondary section in a two-column fixed layout
+	 * 1) This is a fixed element
+	 */
+	.ads-l-page-layout--two-column-fixed > & {
+		@media all and (min-width: $bp-large) {
+			position: fixed;
+			z-index: 2;
+			overflow: auto;
+			width: 18rem;
+			height: 100vh;
+		}
+	}
+
+	/**
+	 * Main section of three-column layout
+	 * 1) TODO: this isn't final, just getting basic placement down
+	 */
+	 .ads-l-page-layout--three-column > & {
+		@media all and (min-width: $bp-large) {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20rem;
+		}
+	}
+}
+
+.ads-l-page-layout__tertiary {
+	/**
+	 * Main section of three-column layout
+	 * 1) TODO: this isn't final, just getting basic placement down
+	 */
+	 .ads-l-page-layout--three-column > & {
+		@media all and (min-width: $bp-large) {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 15rem;
+		}
+	}
+}

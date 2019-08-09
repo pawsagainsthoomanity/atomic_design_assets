@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    #CONTENT BLOCK
+\*------------------------------------*/
+
+
+.ads-c-content-block {
+	.ads-l-grid__item & {
+		width: 100%;
+	}
+}
+
+.ads-c-content-block__title {
+	font-size: $font-size-med-2;
+
+	.ads-c-content-block--positive & {
+		color: $color-utility-positive;
+
+		&:after {
+			content: "";
+			display: block;
+			height: 4px;
+			width: 100%;
+			margin: 0.5rem 0 1rem;
+			background: $color-utility-positive;
+			border-radius: 4px;
+		}
+	}
+
+	.ads-c-content-block--negative & {
+		color: $color-utility-negative;
+
+		&:after {
+		content: "";
+			display: block;
+			height: 4px;
+			width: 100%;
+			margin: 0.5rem 0 1rem;
+			background: $color-utility-negative;
+			border-radius: 4px;
+		}
+	}
+}

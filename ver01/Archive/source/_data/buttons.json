@@ -1,0 +1,24 @@
+{
+	"buttonTag": true,
+	"buttonText": "Button",
+	"buttonGroup": [
+		{},
+		{
+			"styleModifier": "ads-c-btn--secondary"
+		}
+	],
+	"tags": [
+		{
+			"label": "Tag 1"
+		},
+		{
+			"label": "Tag 2"
+		},
+		{
+			"label": "Tag 3"
+		},
+		{
+			"label": "Tag 4"
+		}
+	]
+}

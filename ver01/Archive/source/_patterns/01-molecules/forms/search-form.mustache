@@ -1,0 +1,22 @@
+{{# searchForm }}
+<form method="post" action="{{ url }}" role="search" class="ads-c-search-form {{ styleModifier }}">
+
+	{{# label }}
+	<label for="search" class="ads-c-search__label ads-u-is-vishidden">{{{ label }}}</label>
+	{{/ label }}
+
+	<div class="ads-c-search__body">
+		{{# searchFormIcon }}
+		<svg class="ads-c-icon ads-c-search__icon">
+			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#search"></use>
+		</svg>
+		{{/ searchFormIcon }}
+		<input type="search" id="search" class="ads-c-search__input" placeholder="{{ placeholder }}" value="{{ searchValue }}" />
+		{{# searchFormButton}}
+		{{> molecules-button }}
+		{{/ searchFormButton }}
+	</div>
+
+</form>
+<!-- end c-search -->
+{{/ searchForm }}

@@ -1,0 +1,99 @@
+/*------------------------------------*\
+    #UTILITY NAV
+\*------------------------------------*/
+
+/**
+ * 1) Navigation that contains icons for things like notifications,
+ *    profile, and so on.
+ * 2) When utility nav appears in the navbar, push away from primary navigation,
+ *    effectively right-aligning everything.
+ */
+.ads-c-utility-nav {
+    display: flex;
+    margin-left: 2rem; /* 2 */
+
+    .ads-c-navbar--align-left & {
+        @media all and (min-width: $bp-large) {
+            margin-left: auto;
+        }
+    }
+}
+
+.ads-c-utility-nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    .ads-c-navbar & {
+        color: $color-white;
+    }
+
+    &:hover, &:focus {
+        background: rgba(255,255,255,0.25);
+    }
+}
+
+.ads-c-utility-nav__icon.ads-c-icon {
+    height: 8px;
+    width: 8px;
+    margin-left: 0.5rem;
+}
+
+.ads-c-utility-nav__sublist {
+    display: none;
+
+    @media all and (min-width: $bp-large) {
+        position: absolute;
+        top: 100%;
+        min-width: 12rem;
+        background-color: #3c1c65;
+    }
+
+    .ads-c-utility-nav__item.is-active > & {
+        display: block;
+        margin-left: 1rem;
+
+        @media all and (min-width: $bp-large) {
+            margin-left: 0;
+            margin-top: -1px;
+            background-color: $color-white;
+            box-shadow: $box-shadow;
+            border-radius: 0px 0px 4px 4px;
+            border: 1px solid $color-gray-05;
+        }
+    }
+
+    .ads-c-utility-nav__subitem.is-active > & {
+        display: block;
+        margin-left: 1rem;
+
+        @media all and (min-width: $bp-large) {
+            margin-left: 1rem;
+            position: static;
+            padding: 0;
+        }
+    }
+}
+
+.ads-c-utility-nav__sublink {
+    display: block;
+    color: $color-white;
+    padding: 1rem;
+
+    &:hover, &:focus {
+        color: $color-brand-blue-dull;
+    }
+
+    .ads-c-utility-nav__item.is-active & {
+        @media all and (min-width: $bp-large) {
+            &:hover, &:focus {
+                background: $color-brand-blue-trans-08;
+            }
+        }
+     }
+
+    @media all and (min-width: $bp-large) {
+        color: $color-gray-73;
+    }
+}

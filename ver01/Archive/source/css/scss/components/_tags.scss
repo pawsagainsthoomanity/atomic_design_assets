@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    #TAGS
+\*------------------------------------*/
+
+/**
+ * 1) Terms or phrases that help filter data
+ * 2) Display flex used to display items in row and flex wrap wraps items to next line if not
+ *    enough space
+ */
+.ads-c-tags {
+	 display: flex; /* 2 */
+	 flex-wrap: wrap; /* 2 */
+
+	 @media all and (min-width: 40em) {
+		 margin-left: 0;
+	 }
+}
+
+/**
+ * Table of contents title
+ */
+.ads-c-tags__item {
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+
+	/**
+	 * Last tags item
+	 */
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+/**
+ * Tags link
+ */
+.ads-c-tags__link {
+	display: flex;
+	align-items: center;
+	padding: 0.25rem 0.5rem;
+	background: $color-brand-blue-trans-08;
+	border-radius: 20px;
+	border: 1px dotted $color-brand-blue-light;
+	letter-spacing: 1px;
+	color: $color-brand-blue-light;
+	transition: all $anim-fade-quick $anim-ease;
+
+	&:hover, &:focus {
+		background: $color-brand-blue;
+		color: $color-white;
+	}
+}
+
+/**
+ * Tags icon
+ */
+.ads-c-tags__icon.ads-c-icon {
+	margin-right: 0.5rem;
+	fill: $color-brand-blue-light;
+	transition: fill $anim-fade-quick $anim-ease;
+
+	.ads-c-tags__link:hover &, .ads-c-tags__link:hover & {
+		fill: $color-white;
+	}
+}
+
+.ads-c-tags__text + .ads-c-tags__icon.ads-c-icon {
+	margin-left: 0.5rem;
+	margin-right: 0;
+}

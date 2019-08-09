@@ -1,0 +1,194 @@
+/*------------------------------------*\
+    #TREE NAVIGATION
+\*------------------------------------*/
+
+/**
+ * 1) Vertical navigation that can have nested lists within
+ */
+.ads-c-tree-nav {
+	line-height: 1;
+	color: $color-white;
+	width: 100%;
+	padding: 0 2rem;
+
+	@media all and (min-width: $bp-large) {
+		padding: 0;
+	}
+}
+
+/**
+ * Tree navigation list
+ */
+.ads-c-tree-nav__list {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Tree navigation item
+ */
+.ads-c-tree-nav__item {
+	position: relative;
+}
+
+/**
+ * Tree navigation link
+ * 1) Used for when the primary nav link is a button tag
+ */
+.ads-c-tree-nav__link {
+	display: flex;
+	padding: $spacing 0;
+	outline: 0; /* 1 */
+	background: none; /* 1 */
+	border: none; /* 1 */
+	line-height: 1;
+	cursor: pointer;
+	transition: all $anim-fade-quick $anim-ease;
+
+	.ads-c-navbar & {
+		color: $color-white;
+	}
+
+	&:hover,
+	&:focus {
+		color: $color-brand-blue-dull;
+	}
+
+	/**
+	 * Active tree navigation link
+	 */
+	&.ads-is-active {
+		font-weight: bold;
+	}
+
+	/**
+	 * Tree navigation link within active tree navigation item
+	 */
+	.ads-c-tree-nav__item.ads-is-active > & {
+		@media all and (min-width: $bp-large) {
+			color: $color-brand-blue-dull;
+
+		}
+	}
+}
+
+/**
+ * Tree nav icon that displays on both large and small screens
+ */
+.ads-c-tree-nav__link-text + .ads-c-tree-nav__icon {
+	margin-left: auto;
+}
+
+/**
+ * Tree nav icon
+ */
+.ads-c-tree-nav__icon.ads-c-icon {
+	margin-left: auto;
+	height: 10px;
+	width: 10px;
+	transition: transform $anim-fade-quick $anim-ease;
+
+	.ads-c-navbar & {
+		fill: $color-white;
+	}
+
+	/**
+	 * Tree navigation icon within tree nav link in active tree nav item
+	 */
+	.ads-c-tree-nav__item.ads-is-active .ads-c-tree-nav__link > & {
+		transform: rotate(90deg);
+	}
+
+	/**
+	 * Tree navigation icon within tree nav sublink in active tree nav subitem
+	 */
+	.ads-c-tree-nav__subitem.ads-is-active .ads-c-tree-nav__sublink > & {
+		transform: rotate(90deg);
+	}
+
+	.ads-c-tree-nav__link:hover &, .ads-c-tree-nav__link:focus & {
+		fill: $color-brand-blue-dull;
+	}
+
+	.ads-c-tree-nav__sublink:hover &, .ads-c-tree-nav__sublink:focus & {
+		fill: $color-brand-blue-dull;
+	}
+}
+
+/**
+ * Tree navigation sublist
+ */
+.ads-c-tree-nav__sublist {
+	display: none;
+	border-left: 1px solid $color-gray-40;
+
+	/**
+	 * Tree navigation sublist within active tree nav item
+	 */
+	.ads-c-tree-nav__item.ads-is-active > & {
+		display: block;
+	}
+
+	/**
+	 * Tree navigation sublist within tree nav subitem
+	 */
+	.ads-c-tree-nav__subitem > & {
+		display: none;
+	}
+
+	/**
+	 * Tree navigation sublist within active tree nav subitem
+	 */
+	.ads-c-tree-nav__subitem.ads-is-active > & {
+		display: block;
+	}
+
+	@media all and (min-width: $bp-large) {
+		border-left: 1px solid $color-gray-40;
+	}
+}
+
+/**
+ * Tree navigation sublist
+ */
+.ads-c-tree-nav__sublist .ads-c-tree-nav__sublist {
+	margin-left: 1rem;
+}
+
+/**
+ * Tree navigation sublink
+ */
+.ads-c-tree-nav__sublink {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0 1rem 1rem;
+
+	.ads-c-navbar & {
+		color: $color-white;
+	}
+
+	&:hover,
+	&:focus {
+		color: $color-brand-blue-dull;
+	}
+
+	/**
+	 * Active tree navigation sublink
+	 */
+	&.ads-is-active {
+		font-weight: bold;
+	}
+
+	/**
+	 * Tree navigation sublink within active nav container
+	 */
+	.ads-c-nav-container.ads-is-active & {
+		color: inherit;
+
+		&:hover,
+		&:focus {
+			color: $color-brand-blue-dull;
+		}
+	}
+}

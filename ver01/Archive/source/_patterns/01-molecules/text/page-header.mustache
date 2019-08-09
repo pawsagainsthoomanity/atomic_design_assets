@@ -1,0 +1,18 @@
+<div class="ads-c-page-header {{ styleModifier }}">
+
+    {{# page.kicker }}
+    <h4 class="ads-c-page-header__kicker">{{ page.kicker }}</h4>
+    {{/ page.kicker }}
+    
+    <h1 class="ads-c-page-header__title">{{{ page.title }}}</h1>
+
+    {{# page.description }}
+    <p class="ads-c-page-header__desc">{{{ page.description }}}</p>
+    {{/ page.description }}
+
+    {{# pageHeaderBadges }}
+    {{> molecules-badge }}
+    {{/ pageHeaderBadges }}
+
+</div>
+<!-- end c-page-header -->
