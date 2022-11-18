@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docz": "^1.2.0",
+    "docz": "^2.4.0",
     "docz-theme-default": "^1.2.0"
   }
 }
